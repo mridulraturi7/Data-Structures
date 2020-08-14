@@ -13,7 +13,7 @@ int main()
 
     while (testCase-- != 0)
     {
-        int n, array[100], largest, secondLargest;
+        int n, array[100];
         cin>>n;
 
         for(int i = 0; i < n; i++)
