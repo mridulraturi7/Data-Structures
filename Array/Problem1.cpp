@@ -1,3 +1,8 @@
+/*
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/c-array-print-an-element-set-2/0
+*/
+
 #include<iostream>
 
 using namespace std;
