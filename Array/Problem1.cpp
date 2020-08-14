@@ -18,7 +18,7 @@ int main()
             cin>>array[i];
         }
 
-        cout<<array[index];
+        cout<<array[index]<<endl;
     }
 
     return 0;
