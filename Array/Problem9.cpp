@@ -1,5 +1,7 @@
 /*
-    Pallindromic Array
+    Pallindromic Array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1
 */
 
 #include<iostream>
