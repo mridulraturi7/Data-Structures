@@ -1,5 +1,5 @@
 //Ignore these files and folders
 
-.vscode/.json
+.vscode/launch.json
 
 .exe
