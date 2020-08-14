@@ -1,3 +1,5 @@
 //Ignore these files and folders
 
 .vscode
+
+.exe
