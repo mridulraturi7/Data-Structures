@@ -1,5 +1,7 @@
 /*
     Sum of Array Elements.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sum-of-array-elements/0
 */
 
 #include<iostream>
