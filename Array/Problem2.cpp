@@ -1,4 +1,5 @@
 /*
+    Multiply Array Elements.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/multiply-array/0
 */
