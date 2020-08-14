@@ -1,5 +1,5 @@
 //Ignore these files and folders
 
-.vscode
+.vscode/.json
 
 .exe
