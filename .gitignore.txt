@@ -2,4 +2,4 @@
 
 .vscode/launch.json
 
-**/Array/*.exe
+*.exe
