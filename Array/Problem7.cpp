@@ -1,5 +1,7 @@
 /*
     Alternate Elements of an array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sum-of-series/0
 */
 
 #include<iostream>
