@@ -1,5 +1,5 @@
 /*
-    Average.
+    Average - Calculate average or mean at each array point.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/average/0
 */
