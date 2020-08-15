@@ -1,5 +1,7 @@
 /*
-    Average
+    Average.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/average/0
 */
 
 #include<iostream>
