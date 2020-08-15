@@ -13,10 +13,10 @@ int main()
 
     while(testCase-- != 0)
     {
-        int n, array[1000], elementsLeft;
+        int n, array[1000], removeMax = 1, elementsToRemove;
         cin>>n;
 
-        elementsLeft = n;
+        elementsToRemove = n;
 
         for(int i = 0 ; i < n; i++)
         {
@@ -37,14 +37,35 @@ int main()
             }
         }
 
-        int left = n/2;
+        for(int i = 0; i < elementsToRemove - 1; i++)
+        {
+            if(removeMax == 1)
+            {
+                n = n - 1;
+                removeMax  = 0;
+            }
+
+            else
+            {
+                n = n - 1;
+                removeMax = 1;
+                for(int j = 0; j < n; j++)
+                {
+                    array[j] = array[j+1];
+                }
+            }
+        }
+
+        cout<<array[0]<<endl;
+
+        /*int left = n/2;
         if(n%2 == 0)
         cout<<array[left-1]<<endl;
 
         else
         {
             cout<<array[left]<<endl;
-        }
+        }*/
         
     }
 
