@@ -1,5 +1,7 @@
 /*
     Count of Smaller Elements.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/count-of-smaller-elements/0
 */
 
 #include<iostream>
