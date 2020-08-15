@@ -1,5 +1,7 @@
 /*
     C++ 2D Arrays - Find the transpose of a 2D Matrix.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/c-2-d-arrays/0
 */
 
 #include<iostream>
