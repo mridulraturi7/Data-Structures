@@ -6,8 +6,6 @@
 
 using namespace std;
 
-int factorial(int);
-
 int main()
 {
     int testCase;
@@ -15,30 +13,30 @@ int main()
 
     while(testCase-- != 0)
     {
-        int k;
+        int k, pascal[25][25];
         cin>>k;
         for(int i = 0; i < k; i++)
         {
             for(int j = 0; j <= i; j++)
             {
-                int num, deno;
-                num = factorial(i);
-                deno = factorial(i - j) * factorial(j);
-                cout<<num/deno<<" ";
+                if(i == j || j == 0)
+                {
+                    pascal[i][j] = 1;
+                }
+
+                else
+                {
+                    pascal[i][j] = pascal[i - 1][j - 1] + pascal[i - 1][j];
+                }
             }
-            cout<<endl;
         }
+
+        for(int i = 0; i < k; i++)
+        {
+            cout<<pascal[k-1][i]<<" ";
+        }
+        cout<<endl;
     }
 
     return 0;
-}
-
-int factorial(int n)
-{
-    int fact = 1;
-    for(int i = n; i >= 1; i--)
-    {
-        fact = fact * i;
-    }
-    return fact;
 }
