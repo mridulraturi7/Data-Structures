@@ -1,5 +1,7 @@
 /*
     Swap kth elements.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/swap-kth-elements/0
 */
 
 #include<iostream>
