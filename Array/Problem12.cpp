@@ -15,7 +15,7 @@ int main()
 
     while(testCase-- != 0)
     {
-        int n, array[500], k;
+        int n, array[500], k, kthBegin, kthEnd;
         cin>>n>>k;
 
         for(int i = 0 ; i < n; i++)
@@ -23,9 +23,11 @@ int main()
             cin>>array[i];
         }
 
-        array[k-1] = array[k-1] + array[n-k];
-        array[n-k] = array[k-1] - array[n-k];
-        array[k-1] = array[k-1] - array[n-k];
+        kthBegin = array[k-1];
+        kthEnd = array[n-k];
+
+        array[k-1] = kthEnd;
+        array[n-k] = kthBegin;
 
         for(int i = 0 ; i < n; i++)
         {
