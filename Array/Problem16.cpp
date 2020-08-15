@@ -57,16 +57,6 @@ int main()
         }
 
         cout<<array[0]<<endl;
-
-        /*int left = n/2;
-        if(n%2 == 0)
-        cout<<array[left-1]<<endl;
-
-        else
-        {
-            cout<<array[left]<<endl;
-        }*/
-        
     }
 
     return 0 ;
