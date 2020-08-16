@@ -20,10 +20,8 @@ int main()
         cin>>num;
 
         string str = "Fascinating";
+        int oNum = num, i = 0;
 
-        int oNum = num;
-
-        int i = 0;
         while(num != 0)
         {
             int rem = num % 10;
