@@ -1,5 +1,7 @@
 /*
     Fascinating Number.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/fascinating-number/0
 */
 
 #include<iostream>
