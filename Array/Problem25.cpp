@@ -1,5 +1,7 @@
 /*
     Sum and Average upto 2 decimal Places.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/java-arrays-set-1/0
 */
 
 #include<iostream>
