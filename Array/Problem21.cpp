@@ -12,12 +12,12 @@ int main()
     int testCase;
     cin>>testCase;
 
-    string result = "PERFECT";
-
     while(testCase-- != 0)
     {
         int n, array[100];
         cin>>n;
+
+        string result = "PERFECT";
 
         for(int i = 0; i < n; i++)
         {
