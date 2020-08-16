@@ -1,0 +1,43 @@
+/*
+    Perfect Arrays.
+*/
+
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main()
+{
+    int testCase;
+    cin>>testCase;
+
+    string result = "PERFECT";
+
+    while(testCase-- != 0)
+    {
+        int n, array[100];
+        cin>>n;
+
+        for(int i = 0; i < n; i++)
+        {
+            cin>>array[i];
+        }
+
+        int left = 0, right = n - 1;
+
+        while(left < right)
+        {
+            if(array[left] != array[right])
+            {
+                result = "NOT PERFECT";
+                break;
+            }
+            left++;
+            right--;
+        }
+        cout<<result<<endl;
+    }
+
+    return 0;
+}
