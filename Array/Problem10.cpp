@@ -2,6 +2,7 @@
     At least two greater elements.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/at-least-two-greater-elements/0
+    Difficulty - Basic
 */
 
 #include<iostream>
