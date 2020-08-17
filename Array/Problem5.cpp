@@ -2,6 +2,7 @@
     Second Largest Element of an array.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/second-largest/0
+    Difficulty - Basic
 */
 
 #include<iostream>
