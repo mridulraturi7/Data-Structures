@@ -2,6 +2,7 @@
     Sum of Series.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/sum-of-series/0
+    Difficulty - Basic
 */
 
 #include<iostream>
