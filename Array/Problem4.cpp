@@ -2,6 +2,7 @@
     Largest element of an array.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/largest-element-in-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
