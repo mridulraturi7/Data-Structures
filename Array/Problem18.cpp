@@ -2,6 +2,7 @@
     Pascal's Triangle
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/pascal-triangle/0
+    Difficulty - Basic
 */
 
 #include<iostream>
