@@ -2,6 +2,7 @@
     Check if an array is sorted?
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted/0
+    Difficulty - Basic
 */
 
 #include<iostream>
