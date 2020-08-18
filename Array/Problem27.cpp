@@ -2,6 +2,7 @@
     Display Longest Name.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/display-longest-name/0
+	Difficulty - Basic
 */
 
 #include <iostream>
