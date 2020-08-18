@@ -2,6 +2,7 @@
     Value equal to index value.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/value-equal-to-index-value/0
+    Difficulty - Basic
 */
 
 #include<iostream>
