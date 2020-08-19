@@ -2,7 +2,7 @@
     Find Index.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/find-index/0
-    Difficulty - Basic
+    Difficulty - School
 */
 
 #include<iostream>
