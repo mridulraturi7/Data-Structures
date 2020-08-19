@@ -13,7 +13,7 @@ int main()
 
     while(testCase-- != 0)
     {
-        int n, d, input[10000001], temp[10000001];
+        int n, d, input[10], temp[10];
         cin>>n>>d;
 
         for(int i = 0 ; i < n; i++)
