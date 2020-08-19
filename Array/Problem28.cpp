@@ -30,6 +30,19 @@ int main()
         {
             input[i] = input[i + d];
         }
+
+        int j = 0;
+        for(int i = n - d; i < n; i++)
+        {
+            input[i] = temp[j];
+            j++;
+        }
+
+        for(int i = 0; i < n; i++)
+        {
+            cout<<input[i]<<" ";
+        }
+        cout<<endl;
     }
 
     return 0;
