@@ -16,32 +16,32 @@ int main()
 
     while(testCase-- != 0)
     {
-        int n, d, input[10], temp[10];
+        long long n, d, input[10000000], temp[10000000];
         cin>>n>>d;
 
-        for(int i = 0 ; i < n; i++)
+        for(long long i = 0 ; i < n; i++)
         {
             cin>>input[i];
         }
 
-        for(int i = 0; i < d; i++)
+        for(long long i = 0; i < d; i++)
         {
             temp[i] = input[i];
         }
 
-        for(int i = 0; i < n - d; i++)
+        for(long long i = 0; i < n - d; i++)
         {
             input[i] = input[i + d];
         }
 
-        int j = 0;
-        for(int i = n - d; i < n; i++)
+        long long j = 0;
+        for(long long i = n - d; i < n; i++)
         {
             input[i] = temp[j];
             j++;
         }
 
-        for(int i = 0; i < n; i++)
+        for(long long i = 0; i < n; i++)
         {
             cout<<input[i]<<" ";
         }
