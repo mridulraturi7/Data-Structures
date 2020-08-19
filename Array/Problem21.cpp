@@ -2,7 +2,7 @@
     Perfect Arrays.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/perfect-arrays/0
-    Difficulty - Basic
+    Difficulty - School
 */
 
 #include<iostream>
