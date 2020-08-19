@@ -2,7 +2,7 @@
     Reverse an array.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/reverse-an-array/0
-    Difficulty - Basic
+    Difficulty - School
 */
 
 #include<iostream>
