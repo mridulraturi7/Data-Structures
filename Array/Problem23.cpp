@@ -2,7 +2,7 @@
     Smaller and Larger.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/smaller-and-larger/0
-    Difficulty - Basic
+    Difficulty - School
 */
 
 #include<iostream>
