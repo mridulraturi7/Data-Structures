@@ -1,5 +1,8 @@
 /*
     Rotate an array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0
+    Difficulty - School
 */
 
 #include<iostream>
