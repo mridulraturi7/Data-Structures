@@ -11,12 +11,12 @@ using namespace std;
 
 int main()
 {
-    int testCase;
+    long long testCase;
     cin>>testCase;
 
     while(testCase-- != 0)
     {
-        long long n, d, input[10000000], temp[10000000];
+        long long n, d, input[100000], temp[100000];
         cin>>n>>d;
 
         for(long long i = 0 ; i < n; i++)
