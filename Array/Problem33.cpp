@@ -1,5 +1,8 @@
 /*
     Find unique element.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-unique-element/0
+    Difficulty - Basic
 */
 
 #include<iostream>
