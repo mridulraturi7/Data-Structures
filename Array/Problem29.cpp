@@ -2,6 +2,9 @@
     Inverse Permutation.
 */
 
+//Inverse Permutation is the permutation which we get by inserting position of an element at the position
+//specified by the element value. 
+
 #include<iostream>
 
 using namespace std;
