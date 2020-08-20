@@ -1,5 +1,8 @@
 /*
-    Play with an array.
+    Play with an array
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/play-with-an-array/1
+    Difficulty - Basic
 */
 
 #include<iostream>
@@ -18,7 +21,7 @@ int main()
     {
         int n;
         cin>>n;
-        
+
         vector<int> a(n);
 
         for(int i = 0; i < n; i++)
