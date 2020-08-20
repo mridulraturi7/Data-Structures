@@ -1,5 +1,8 @@
 /*
-    Inverse Permutation.
+    Inverse Permutation
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/inverse-permutation/0
+    Difficulty - Basic
 */
 
 //Inverse Permutation is the permutation which we get by inserting position of an element at the position
