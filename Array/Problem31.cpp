@@ -1,5 +1,8 @@
 /*
     Maximum in struct array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/maximum-in-struct-array/1
+    Difficulty - Basic
 */
 
 #include<iostream>
