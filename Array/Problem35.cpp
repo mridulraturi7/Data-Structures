@@ -1,5 +1,8 @@
 /*
     Ishaan Loves Chocolates.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/ishaan-loves-chocolates/0
+    Difficulty - Basic
 */
 
 #include<iostream>
