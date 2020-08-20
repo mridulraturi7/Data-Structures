@@ -1,5 +1,8 @@
 /*
     Sherlock a detective
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sherlock-a-detective/0
+    Difficulty - Basic
 */
 
 #include<iostream>
