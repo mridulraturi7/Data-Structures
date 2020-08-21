@@ -1,5 +1,10 @@
 /*
     Insertion in a linked list.
+    We are given a linked list with 3 nodes.
+    This is a menu driven program where you can perform insertion operation in following ways:
+        a: At the beginning of the node.
+        b: After a node.
+        c: At the end of the list. 
 */
 
 #include<iostream>
