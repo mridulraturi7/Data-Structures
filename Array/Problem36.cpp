@@ -1,5 +1,8 @@
 /*
-    Greater on right side
+    Greater on right side.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/greater-on-right-side/0
+    Difficulty - Basic
 */
 
 #include<iostream>
