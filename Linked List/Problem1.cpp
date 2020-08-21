@@ -1,5 +1,6 @@
 /*
-    A sample program to create a linked list with 3 nodes and then traverse it..
+    A sample program to create a linked list with 3 nodes and then traverse it.
+    A linked list is a linear data structure in which elements are not stored at contiguous memory locations.
 */
 
 #include<iostream>
@@ -10,7 +11,7 @@ class Node
 {
     public:
         int data;
-        Node *next; //Self Referencing Pointer.
+        Node *next; //Self Referencing Pointer - A pointer that points to whatever it is a part of.
 };
 
 void printList(Node *n);
