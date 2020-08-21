@@ -1,5 +1,8 @@
 /*
     Replace all 0's with 5.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/replace-all-0s-with-5/1
+    Difficulty - Basic
 */
 
 #include<iostream>
