@@ -21,7 +21,7 @@ int main()
             cin>>array[i];
         }
 
-        /* Logic 1 O(n^2)
+        /* Logic 1 : T.C = O(n^2)
         for(int i = 0; i < n - 1; i++)
         {
             int max = 0;
@@ -38,6 +38,7 @@ int main()
         array[n - 1] = -1;
         */
 
+        //Logic 2 : T.C = O(n)
         int max = array[n - 1];
         array[n - 1] = -1;
 
