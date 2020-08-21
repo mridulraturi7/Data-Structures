@@ -21,7 +21,7 @@ int main()
             cin>>array[i];
         }
 
-        
+        /* Logic 1 O(n^2)
         for(int i = 0; i < n - 1; i++)
         {
             int max = 0;
@@ -36,8 +36,21 @@ int main()
         }
 
         array[n - 1] = -1;
-        
+        */
 
+        int max = array[n - 1];
+        array[n - 1] = -1;
+
+        for(int i = n - 2; i >= 0; i--)
+        {
+            int temp_max = array[i];
+            array[i] = max;
+
+            if(temp_max > max)
+            {
+                max = temp_max;
+            }
+        }
 
         for(int i = 0; i < n; i++)
         {
