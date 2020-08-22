@@ -1,5 +1,9 @@
 /*
     Deleting a node with a given key in a linked list.
+    Deleting a node can be done by : 
+        a: Find the previous node of the node to be deleted.
+        b: Modify the next of the previous node.
+        c: Free the memory allocated to the node to be deleted.
 */
 
 #include<iostream>
