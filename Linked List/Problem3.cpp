@@ -1,5 +1,5 @@
 /*
-    Deleting a node in a linked list.
+    Deleting a node with a given key in a linked list.
 */
 
 #include<iostream>
