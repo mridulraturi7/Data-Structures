@@ -2,7 +2,7 @@
     Alternate Elements of an array.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/print-alternate-elements-of-an-array/1
-    Difficulty - Basic
+    Difficulty - School
 */
 
 #include<iostream>
