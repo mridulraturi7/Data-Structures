@@ -46,16 +46,18 @@ void deleteNode(Node **head_ref, int position)
 
         if(count == position)
         {
-            previous_node->next = temp->next;
             break;
         }
     }
 
-    if(temp == NULL || temp->next == NULL)
+    if(temp == NULL)
     {
         cout<<"Element is not in the Linked List. Enter valid position.";
         return;
     }
+
+    //Modify the next of previous node
+    previous_node->next = temp->next;
 
     //Free the memory allocated to the node to be deleted.
     delete temp;
