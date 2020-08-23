@@ -51,6 +51,12 @@ void deleteNode(Node **head_ref, int position)
         }
     }
 
+    if(temp == NULL || temp->next == NULL)
+    {
+        cout<<"Element is not in the Linked List. Enter valid position.";
+        return;
+    }
+
     //Free the memory allocated to the node to be deleted.
     delete temp;
 }
@@ -79,10 +85,14 @@ int main()
 
     int position;
 
+    cout<<endl;
+
     cout<<"Enter the position of the node to be deleted: ";
     cin>>position;
 
     deleteNode(&head, position);
+
+    cout<<endl;
 
     cout<<"Status of Linked List after deleting node at "<<position<<" position: ";
     printList(head);
