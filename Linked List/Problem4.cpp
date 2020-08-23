@@ -50,6 +50,7 @@ void deleteNode(Node **head_ref, int position)
         }
     }
 
+    //Check if the position is more than number of nodes.
     if(temp == NULL)
     {
         cout<<"Element is not in the Linked List. Enter valid position.";
