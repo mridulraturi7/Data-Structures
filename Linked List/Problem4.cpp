@@ -1,5 +1,9 @@
 /*
     Deleting a node at a given position. Take Head Position = 0.
+
+    For Example: Status of Linked List = 1(Position = 0) -> 2(Position = 1) -> 3(Posititon = 2)
+
+    After deleting node at position 1, Status of Linked List = 1(Position = 0) -> 3(Position = 2)
 */
 
 #include<iostream>
