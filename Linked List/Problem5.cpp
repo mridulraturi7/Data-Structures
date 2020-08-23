@@ -1,5 +1,7 @@
 /*
     Deleting a Linked List.
+
+    The idea is to iterate through every node and delete each node one by one.
 */
 
 #include<iostream>
