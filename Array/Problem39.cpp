@@ -1,5 +1,8 @@
 /*
     Binary Array Sorting
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/binary-array-sorting/0
+    Difficulty - Basic
 */
 
 #include<iostream>
