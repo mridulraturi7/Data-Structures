@@ -23,26 +23,23 @@ int main()
             cin>>vec[i];
         }
 
-        int countZero = 0;
-        for(int i = 0; i < n; i++)
+        int start = 0, end = n - 1;
+        while(start < end)
         {
-            if(vec[i] == 0)
+            if(vec[start] == 0)
             {
-                countZero++;
+                start++;
+                continue;
             }
-        }
 
-        for(int i = 0; i < n; i++)
-        {
-            if(i < countZero)
+            if(vec[end] == 1)
             {
-                vec[i] = 0;
+                end--;
+                continue;
             }
-            else
-            {
-                vec[i] = 1;
-            }
-            
+
+            vec[start++] = 0;
+            vec[end--] = 1;
         }
 
         for(int i = 0; i < n; i++)
