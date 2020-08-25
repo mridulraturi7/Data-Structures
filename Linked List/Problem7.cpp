@@ -1,8 +1,8 @@
 /*
     Length of a Linked List (Recursive Approach).
     Find the number of nodes in a linked list.
-    This is a menu driven program which facilitates user to insert elements at end in the linked list and calculate the 
-    length of the linked list as it grows.
+    This is a menu driven program which facilitates user to insert elements at end in the linked list and 
+    calculate the length of the linked list as it grows.
 */
 
 #include<iostream>
