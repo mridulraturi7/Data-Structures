@@ -1,7 +1,7 @@
 /*
     Length of a Linked List (Iterative Approach).
     Find the number of nodes in a linked list.
-    This is a menu driven program which facilitates user to insert elements at beginning in the linked list as 
+    This is a menu driven program which facilitates user to insert elements at beginning in the linked list and 
     calculate the length of the linked list as it grows.
 */
 
