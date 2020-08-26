@@ -2,7 +2,7 @@
     Compete the skills.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/compete-the-skills/0
-    Difficulty - Basic
+    Difficulty - School
 */
 
 #include<iostream>
