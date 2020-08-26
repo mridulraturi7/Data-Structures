@@ -1,5 +1,5 @@
 /*
-    Searching an element in Linked List
+    Searching an element in Linked List (Iterative Approach).
 */
 
 #include<iostream>
