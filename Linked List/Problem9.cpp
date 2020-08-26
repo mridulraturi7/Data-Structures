@@ -30,6 +30,8 @@ bool searchElement(Node *n, int value)
 
 int main()
 {
+    //Create a linked list as : head -> second -> third -> fourth -> fifth : 10 -> 20 -> 0 -> 50 -> 40
+
     Node *head = new Node();
     Node *second = new Node();
     Node *third = new Node();
