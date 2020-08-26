@@ -1,5 +1,7 @@
 /*
-    Searching an element in Linked List (Recursive Approach)
+    Searching an element in Linked List (Recursive Approach).
+    You are provided with a key, you have to write a function which returns true is the key is found in the Linked
+    List, otherwise return false.
 */
 
 #include<iostream>
