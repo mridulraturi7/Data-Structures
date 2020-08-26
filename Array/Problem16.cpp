@@ -2,7 +2,7 @@
     Print the left element.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/print-the-left-element/0#ExpectOP
-    Difficulty - Basic
+    Difficulty - School
 */
 
 #include<iostream>
