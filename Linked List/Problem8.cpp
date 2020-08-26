@@ -1,5 +1,7 @@
 /*
     Searching an element in Linked List (Iterative Approach).
+    You are provided with a key, you have to write a function which returns true if the key is found in the Linked
+    List, otherwise return false.
 */
 
 #include<iostream>
