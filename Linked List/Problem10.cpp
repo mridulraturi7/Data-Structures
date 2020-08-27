@@ -1,5 +1,5 @@
 /*
-    Get nth node from Linked List.
+    Get nth node from Linked List (Iterative Approach).
 */
 
 #include<iostream>
