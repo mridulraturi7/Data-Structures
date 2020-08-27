@@ -1,6 +1,6 @@
 /*
     Get nth node from Linked List (Iterative Approach).
-    You are given a linked list, you have to write a function that return the nth node from the linked list.
+    You are given a linked list, you have to write a function that returns the nth node from the linked list.
     Assume indexing starts from 0.
 */
 
