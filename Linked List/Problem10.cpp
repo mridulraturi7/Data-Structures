@@ -34,6 +34,8 @@ int getNthNode(Node *n, int index)
 
 int main()
 {
+    //Create a linked list as : head -> second -> third -> fourth -> fifth : 10 -> 20 -> 30 -> 40 -> 50
+
     Node *head = new Node();
     Node *second = new Node();
     Node *third = new Node();
