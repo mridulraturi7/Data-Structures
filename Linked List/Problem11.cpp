@@ -19,6 +19,9 @@ int getNthNode(Node *n, int index)
 {
     int count = 0;
 
+    if(n == NULL)
+        return -1;
+
     if(count == index)
         return n->data;
 
