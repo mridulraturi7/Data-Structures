@@ -1,5 +1,8 @@
 /*
     Index of first 1 in a sorted array of 0's and 1's.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/index-of-first-1-in-a-sorted-array-of-0s-and-1s/0
+    Difficulty - Basic
 */
 
 #include<iostream>
