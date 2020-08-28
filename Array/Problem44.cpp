@@ -1,5 +1,8 @@
 /*
     Positive and Negative Elements.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/positive-and-negative-elements/0
+    Difficulty - Basic
 */
 
 #include<iostream>
