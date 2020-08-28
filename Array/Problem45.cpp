@@ -1,5 +1,8 @@
 /*
     Pendulum Arrangement of an Array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/print-an-array-in-pendulum-arrangement/0
+    Difficulty - Basic
 */
 
 #include<iostream>
