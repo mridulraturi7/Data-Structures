@@ -1,5 +1,8 @@
 /*
     Number of Occurrence.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/number-of-occurrence/0
+    Difficulty - Basic
 */
 
 #include<iostream>
