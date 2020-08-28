@@ -1,5 +1,8 @@
 /*
     Find triplets with zero sum.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1
+    Difficulty - Basic
 */
 
 #include<iostream>
