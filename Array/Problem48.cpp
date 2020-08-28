@@ -1,5 +1,8 @@
 /*
     Find the odd occurrence.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-the-odd-occurence/0
+    Difficulty - Basic
 */
 
 #include<iostream>
