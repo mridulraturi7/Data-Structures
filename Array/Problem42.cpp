@@ -1,5 +1,8 @@
 /*
     Maximum Product of two numbers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/maximum-product-of-two-numbers/0
+    Difficulty - Basic
 */
 
 #include<iostream>
