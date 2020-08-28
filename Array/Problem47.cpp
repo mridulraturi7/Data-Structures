@@ -1,5 +1,8 @@
 /*
     Last index of 1.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/last-index-of-1/0
+    Difficulty - Basic
 */
 
 #include<iostream>
