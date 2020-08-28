@@ -27,6 +27,7 @@ int main()
             cin>>v[i];
         }
 
+        //Finding the two maximum numbers of the array one by one.
         int max1 = 0, max2 = 0, max_index, prod = 1;
         
         for(int i = 0; i < n; i++)
