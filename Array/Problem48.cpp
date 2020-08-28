@@ -3,7 +3,7 @@
 */
 
 #include<iostream>
-#include<unordered_map>
+#include<algorithm>
 
 using namespace std;
 
@@ -23,24 +23,26 @@ int main()
             cin>>array[i];
         }
 
-        unordered_map<int, int> myMap;
+        int max = *max_element(array, array + n);
+        
+        int *hash = new int[max + 1];
         for(int i = 0; i < n; i++)
         {
-            myMap[array[i]]++;
+            hash[array[i]]++;
         }
 
-        int oddOcc = 0;
+        int oddOc = 0;
 
-        for(auto i : myMap)
+        for(int i = 0; i < max + 1; i++)
         {
-            if((i.second) % 2 != 0)
+            if((hash[i]%2) != 0)
             {
-                oddOcc = i.first;
-                break;
+                oddOc = i;
             }
         }
 
-        cout<<oddOcc<<endl;
+        cout<<oddOc<<endl;
     }
-	return 0;
+
+    return 0;
 }
