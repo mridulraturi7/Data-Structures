@@ -1,5 +1,8 @@
 /*
     Make Co-Prime Array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/make-coprime-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
