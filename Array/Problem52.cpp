@@ -1,5 +1,8 @@
 /*
     Removing duplicate elements from sorted array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1
+    Difficulty - Basic
 */
 
 #include<iostream>
