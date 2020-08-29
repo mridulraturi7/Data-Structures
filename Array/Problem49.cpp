@@ -1,5 +1,8 @@
 /*
     Segregate even and odd numbers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-numbers/0
+    Difficulty - Basic
 */
 
 #include<iostream>
