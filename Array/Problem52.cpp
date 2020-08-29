@@ -21,7 +21,7 @@ int main()
         int n;
         cin>>n;
 
-        int array[7]; //= new int[n];
+        int *array = new int[n];
         for(int i = 0; i < n; i++)
         {
             cin>>array[i];
