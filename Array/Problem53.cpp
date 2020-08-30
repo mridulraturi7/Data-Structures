@@ -7,8 +7,11 @@
 
 #include<iostream>
 #include<algorithm>
+#include<vector>
 
 using namespace std;
+
+int findGCD(int, int);
 
 int main()
 {
@@ -30,7 +33,7 @@ int main()
 
         for(int i = 0; i < n - 1; i++)
         {
-            if(__gcd(array[i], array[i + 1]) != 1)
+            if(findGCD(array[i], array[i + 1]) != 1)
             {
                 count++;
             }
@@ -40,4 +43,21 @@ int main()
     }
 
     return 0;
+}
+
+int findGCD(int a, int b)
+{
+    if(a == 0)
+        return b;
+
+    if(b == 0)
+        return a;
+
+    if(a == b)
+        return a;
+
+    if(a > b)
+        return findGCD(a - b, b);
+
+    return findGCD(a, b - a);
 }
