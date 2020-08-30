@@ -1,5 +1,8 @@
 /*
     Check if two arrays are equal or not.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not/0
+    Difficulty - Basic
 */
 
 #include<iostream>
