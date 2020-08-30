@@ -1,5 +1,8 @@
 /*
     Third Largest Element.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/third-largest-element/1
+    Difficulty - Basic
 */
 
 #include<iostream>
