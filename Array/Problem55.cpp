@@ -1,0 +1,38 @@
+/*
+    K Largest Elements.
+*/
+
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+int main()
+{
+    int testCase;
+    cin>>testCase;
+
+    while(testCase-- != 0)
+    {
+        int n,k;
+        cin>>n>>k;
+
+        int *array = new int[n];
+        for(int i = 0; i < n; i++)
+        {
+            cin>>array[i];
+        }
+
+        sort(array, array + n);
+
+        for(int i = 1; i <= k; i++)
+        {
+            cout<<array[n - i]<<" ";
+        }
+
+        cout<<endl;
+
+    }
+
+    return 0;
+}
