@@ -1,5 +1,8 @@
 /*
     Product of maximum in first array and minimum in second array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second/0
+    Difficulty - Basic
 */
 
 #include<iostream>
