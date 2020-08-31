@@ -1,5 +1,8 @@
 /*
     Elements in the Range.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/elements-in-the-range/0
+    Difficulty - Basic
 */
 
 #include<iostream>
@@ -37,6 +40,32 @@ int main()
                 }
             }
         }
+
+        /*
+        int l = 0, r = n - 1;
+        while(l < r)
+        {
+            if(array[l] == a && array[r] == b)
+            {
+                int elements = array[r] - array[l];
+                if(elements == (r - l))
+                {
+                    result = true;
+                }
+                break;
+            }
+
+            if(array[l] != a)
+            {
+                l++;
+            }
+
+            if(array[r] != b)
+            {
+                b--;
+            }
+        }
+        */
 
         if(result)
         {
