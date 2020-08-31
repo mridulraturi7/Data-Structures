@@ -1,5 +1,8 @@
 /*
     Count triplets with sum smaller than X.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x/0
+    Difficulty - Basic
 */
 
 #include <iostream>
