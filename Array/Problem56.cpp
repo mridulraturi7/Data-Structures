@@ -5,8 +5,8 @@
     Difficulty - Basic
 */
 
-#include<iostream>
-#include<algorithm>
+#include <iostream>
+#include <unordered_map>
 
 using namespace std;
 
@@ -20,51 +20,43 @@ int main()
         int n;
         cin>>n;
 
-        int *array1 = new int[n];
-        int *array2 = new int[n];
+        long long *array1 = new long long[n];
+        long long *array2 = new long long[n];
+        
         for(int i = 0; i < n; i++)
         {
             cin>>array1[i];
         }
-
-        int max1 = *max_element(array1, array1 + n);
 
         for(int i = 0; i < n; i++)
         {
             cin>>array2[i];
         }
 
-        int max2 = *max_element(array2, array2 + n);
-
-        int *hash1 = new int[max1 + 1] ();
-        int *hash2 = new int[max2 + 1] ();
+        unordered_map<int, int> hash;
 
         for(int i = 0; i < n; i++)
         {
-            hash1[array1[i]]++;
-            hash2[array2[i]]++;
+            hash[array1[i]]++;
         }
 
-        int count = 0;
-        for(int i = 0; i <= max1; i++)
+        int isEqual = 1;
+        
+        for(int i = 0; i < n; i++)
         {
-            if(hash1[i] == hash2[i])
+            hash[array2[i]]--;
+        }
+
+        for(auto i : hash)
+        {
+            if(i.second != 0)
             {
-                count = count + hash1[i];
+                isEqual = 0;
+                break;
             }
         }
 
-        if(count == n)
-        {
-            cout<<"1";
-        }
-
-        else
-        {
-            cout<<"0";
-        }
-
-        cout<<endl;
+        cout<<isEqual<<endl;
 
     }
 
