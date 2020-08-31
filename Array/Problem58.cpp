@@ -43,7 +43,7 @@ long countTriplets(long array[], int n, long long x)
 {
     long count = 0;
 
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n - 2; i++)
     {
         int l = i + 1, r = n - 1;
         while(l < r)
