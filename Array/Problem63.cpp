@@ -22,6 +22,7 @@ int main()
             cin>>array[i];
         }
 
+        //There will be light in the room as long as the candle with maximum capacity(units) doesn't reduce to 0.
         long long days = 0;
         for(int i = 0; i < n; i++)
         {
