@@ -1,5 +1,8 @@
 /*
     Fighting the Darkness.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/fighting-the-darkness/0
+    Difficulty - Basic
 */
 
 #include<iostream>
