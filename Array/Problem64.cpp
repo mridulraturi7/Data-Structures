@@ -1,5 +1,8 @@
 /*
     Maximize ∑arr[i]*i of an Array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/maximize-arrii-of-an-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
