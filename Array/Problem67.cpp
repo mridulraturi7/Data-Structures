@@ -1,5 +1,8 @@
 /*
     Sum Triangle for given array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sum-triangle-for-given-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
