@@ -1,5 +1,8 @@
 /*
     Find the smallest and second smallest element in an array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
@@ -55,8 +58,7 @@ int main()
             {
                 cout<<min1<<" "<<min2<<endl;
             }   
-            }
-        
+        }  
     }
 
     return 0;
