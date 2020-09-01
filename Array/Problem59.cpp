@@ -6,7 +6,6 @@
 */
 
 #include<iostream>
-#include<algorithm>
 
 using namespace std;
 
@@ -26,48 +25,16 @@ int main()
             cin>>array[i];
         }
 
-        //sort(array, array + n);
-        bool result = true;
-
-        for(int i = a; i <= b; i++)
+        int count = 0;
+        for(int i = 0; i < n; i++)
         {
-            for(int j = 0; j < n; j++)
+            if(array[i] >= a && array[i] <= b)
             {
-                if(array[j] != i)
-                {
-                    result = false;
-                    break;
-                }
+                count++;
             }
         }
 
-        /*
-        int l = 0, r = n - 1;
-        while(l < r)
-        {
-            if(array[l] == a && array[r] == b)
-            {
-                int elements = array[r] - array[l];
-                if(elements == (r - l))
-                {
-                    result = true;
-                }
-                break;
-            }
-
-            if(array[l] != a)
-            {
-                l++;
-            }
-
-            if(array[r] != b)
-            {
-                b--;
-            }
-        }
-        */
-
-        if(result)
+        if(count == (b - a) + 1)
         {
             cout<<"Yes"<<endl;
         }
@@ -76,6 +43,7 @@ int main()
         {
             cout<<"No"<<endl;
         }
+        
         
     }
 
