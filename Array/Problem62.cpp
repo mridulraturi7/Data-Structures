@@ -1,5 +1,8 @@
 /*
     Immediate Smaller Element.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/immediate-smaller-element/0
+    Difficulty - Basic
 */
 
 #include <iostream>
