@@ -1,7 +1,7 @@
 /*
     Intersection of two arrays.
     Problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/total-count/0
+    Problem Statement - https://practice.geeksforgeeks.org/problems/intersection-of-two-arrays2404/1
     Difficulty - Basic
 */
 
