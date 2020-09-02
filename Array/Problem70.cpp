@@ -2,6 +2,7 @@
     Intersection of two arrays.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/total-count/0
+    Difficulty - Basic
 */
 
 #include<iostream>
