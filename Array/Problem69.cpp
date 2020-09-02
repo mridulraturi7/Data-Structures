@@ -1,5 +1,8 @@
 /*
     Total Count.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/total-count/0
+    Difficulty - Basic
 */
 
 #include<iostream>
@@ -41,7 +44,7 @@ int countPerElement(int num, int k)
 {
     int rem = (num % k);
     int elements = 0;
-    
+
     if(rem == 0)
     {
         elements = (num / k);
