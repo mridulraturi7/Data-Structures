@@ -2,12 +2,12 @@
     Absolute Difference of 1.
 */
 
-#include<iostream>
-#include<cstdlib>
+#include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
-bool checkAbsoluteDifference(int num);
+bool checkAbsoluteDifference(long long num);
 
 int main()
 {
@@ -16,10 +16,13 @@ int main()
 
     while(testCase-- != 0)
     {
-        int n, k;
-        cin>>n>>k;
+        int n;
+        cin>>n;
+        
+        long long k;
+        cin>>k;
 
-        int *array = new int[n];
+        long long *array = new long long[n];
         for(int i = 0; i < n; i++)
         {
             cin>>array[i];
@@ -53,7 +56,7 @@ int main()
     return 0;
 }
 
-bool checkAbsoluteDifference(int num)
+bool checkAbsoluteDifference(long long num)
 {
     bool absolute = true;
     int size = 0;
