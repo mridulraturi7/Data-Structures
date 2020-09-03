@@ -1,5 +1,8 @@
 /*
     Minimum Distance between two numbers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/minimum-distance-between-two-numbers/1
+    Difficulty - Basic
 */
 
 #include<iostream>
