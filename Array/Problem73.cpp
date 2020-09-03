@@ -1,7 +1,7 @@
 /*
     Absolute Distinct Count.
     Problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/minimum-distance-between-two-numbers/1
+    Problem Statement - https://practice.geeksforgeeks.org/problems/absolute-distinct-count/0
     Difficulty - Basic
 */
 
@@ -42,6 +42,6 @@ int main()
 
         cout<<count<<endl;
     }
-    
+
     return 0;
 }
