@@ -1,5 +1,8 @@
 /*
     Binary Search.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1
+    Difficulty - Basic
 */
 
 #include<iostream>
