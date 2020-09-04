@@ -1,5 +1,8 @@
 /*
     Count the numbers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/count-the-numbers/0
+    Difficulty - Basic
 */
 
 #include<iostream>
