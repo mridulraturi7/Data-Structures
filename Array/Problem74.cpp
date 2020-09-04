@@ -3,6 +3,7 @@
 */
 
 #include<iostream>
+#include<algorithm>
 
 using namespace std;
 
@@ -22,15 +23,25 @@ int main()
             cin>>array[i];
         }
 
+        sort(array, array + n);
+
         int count = 0;
 
-        for(int i = 0; i < n - 2; i++)
+        for(int i = n - 1; i > 1; i--)
         {
-            for(int j = i + 1; j < n - 1; j++)
+            int l = 0, r = i - 1;
+            while(l < r)
             {
-                for(int k = j + 1; k < n; k++)
+                int sum = array[l] + array[r];
+                if(sum > array[i])
                 {
-                    count++;
+                    count = count + (r - l);
+                    r--;
+                }
+                
+                else
+                {
+                    l++;
                 }
             }
         }
