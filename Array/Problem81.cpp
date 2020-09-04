@@ -1,7 +1,7 @@
 /*
     Count number of elements between two given elements in array.
     Problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/triplet-family/1
+    Problem Statement - https://practice.geeksforgeeks.org/problems/count-number-of-elements-between-two-given-elements-in-array/0
     Difficulty - Basic
 */
 
