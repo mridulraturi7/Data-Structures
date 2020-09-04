@@ -29,6 +29,7 @@ int main()
 
         for(int i = n - 1; i > 1; i--)
         {
+            //Traversing in reverse to fix the third side of the triangle.
             int l = 0, r = i - 1;
             while(l < r)
             {
