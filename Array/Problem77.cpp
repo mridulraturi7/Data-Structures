@@ -1,7 +1,7 @@
 /*
     Pythagorean Triplet.
     Problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/longest-increasing-subarray/0
+    Problem Statement - https://practice.geeksforgeeks.org/problems/pythagorean-triplet/0
     Difficulty - Basic
 */
 
