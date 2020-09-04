@@ -1,5 +1,8 @@
 /*
     Maximum Repeating Number.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/maximum-repeating-number/0
+    Difficulty - Basic
 */
 
 #include<iostream>
