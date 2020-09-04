@@ -1,5 +1,8 @@
 /*
     Count Possible Triangles.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/count-possible-triangles/0
+    Difficulty - Basic
 */
 
 #include<iostream>
