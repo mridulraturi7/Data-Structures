@@ -30,7 +30,6 @@ int main()
         }
 
         int most_frequent = *max_element(hash, hash + k);
-        //int least_element = k - 1;
         
         for(int i = 0; i < k; i++)
         {
