@@ -1,5 +1,8 @@
 /*
     Arranging the array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/arranging-the-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
