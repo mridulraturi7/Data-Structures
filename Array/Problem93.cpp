@@ -1,5 +1,8 @@
 /*
     Array of alternate +ve and -ve numbers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/array-of-alternate-ve-and-ve-nos/0
+    Difficulty - Basic
 */
 
 #include <iostream>
