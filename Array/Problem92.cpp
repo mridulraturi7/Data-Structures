@@ -1,5 +1,8 @@
 /*
     Find second largest element.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-second-largest-element/0
+    Difficulty - Basic
 */
 
 #include<iostream>
