@@ -1,5 +1,8 @@
 /*
     C++ 2-D Arrays | Set - 2.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/c-2-d-arrays-set-2/0
+    Difficulty - Basic
 */
 
 #include<iostream>
