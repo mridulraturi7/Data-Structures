@@ -1,5 +1,8 @@
 /*
     Minimum Difference among K.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/minimum-difference-among-k/0
+    Difficulty - Basic
 */
 
 #include<iostream>
