@@ -1,5 +1,8 @@
 /*
     Professor and Parties.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/professor-and-parties/0
+    Difficulty - Basic
 */
 
 #include<iostream>
