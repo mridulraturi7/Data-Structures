@@ -1,5 +1,8 @@
 /*
     Form largest number from digits.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/form-largest-number-from-digits/0
+    Difficulty - Basic
 */
 
 #include<iostream>
