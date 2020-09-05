@@ -1,5 +1,8 @@
 /*
     Find first and last occurrence of X.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-first-and-last-occurrence-of-x/0
+    Difficulty - Basic
 */
 
 #include<iostream>
