@@ -25,7 +25,7 @@ int main()
             cin>>array[i];
         }
 
-        for(int i = 0; i < n - 1; i++)
+        for(int i = 0; i < n; i++)
         {
             int count = 0;
             for(int j = i + 1; j < n; j++)
@@ -35,14 +35,7 @@ int main()
                     ++count;
                 }
             }
-            array[i] = count;
-        }
-
-        array[n - 1] = 0;
-
-        for(int i = 0; i < n; i++)
-        {
-            cout<<array[i]<<" ";
+            cout<<count<<" ";
         }
 
         cout<<endl;
