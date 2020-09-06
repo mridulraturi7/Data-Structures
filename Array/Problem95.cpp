@@ -1,7 +1,7 @@
 /*
     Reverse array in groups.
     Problem is taken from GFG.
-    Problem Statement - https://practice.geeksforgeeks.org/problems/shortest-un-ordered-subarray/0
+    Problem Statement -
     Difficulty - Basic
 */
 
