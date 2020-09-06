@@ -1,5 +1,8 @@
 /*
     Shuffle Integers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/shuffle-integers/0
+    Difficulty - Basic
 */
 
 #include<iostream>
