@@ -1,7 +1,7 @@
 /*
     Reverse array in groups.
     Problem is taken from GFG.
-    Problem Statement -
+    Problem Statement - https://practice.geeksforgeeks.org/problems/reverse-array-in-groups/0
     Difficulty - Basic
 */
 
