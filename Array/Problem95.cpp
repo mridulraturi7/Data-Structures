@@ -21,6 +21,7 @@ int main()
         cin>>n>>k;
 
         long *array = new long[n];
+        
         for(int i = 0; i < n; i++)
         {
             cin>>array[i];
