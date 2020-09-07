@@ -1,5 +1,8 @@
 /*
     Shortest Un - ordered Subarray.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/shortest-un-ordered-subarray/0
+    Difficulty - Basic
 */
 
 #include<iostream>
