@@ -1,5 +1,8 @@
 /*
     Sorting Employees.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sorting-employees/0
+    Difficulty - Basic
 */
 
 #include<iostream>
