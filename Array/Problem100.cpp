@@ -1,5 +1,8 @@
 /*
     Find duplicates under given constraints.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-duplicates-under-given-constraints/0
+    Difficulty - Basic
 */
 
 #include<iostream>
@@ -29,6 +32,6 @@ int main() {
         
         cout<<endl;
     }
-    
+
 	return 0;
 }
