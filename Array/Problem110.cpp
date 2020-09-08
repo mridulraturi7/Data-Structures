@@ -1,5 +1,8 @@
 /*
     First Come First Serve.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/first-come-first-serve/0
+    Difficulty - Basic
 */
 
 #include<iostream>
