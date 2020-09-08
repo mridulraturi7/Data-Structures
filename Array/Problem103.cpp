@@ -1,5 +1,8 @@
 /*
     Sum of f(a[i], a[j]) over all pairs in an array of n integers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sum-of-fai-aj-over-all-pairs-in-an-array-of-n-integers/0
+    Difficulty - Basic
 */
 
 #include<iostream>
