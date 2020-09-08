@@ -1,5 +1,8 @@
 /*
     Multiply left and right array sum.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/multiply-left-and-right-array-sum/0
+    Difficulty - Basic
 */
 
 #include<iostream>
