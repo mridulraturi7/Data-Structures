@@ -1,5 +1,8 @@
 /*
     Play with OR.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/play-with-or/0
+    Difficulty - Basic
 */
 
 #include<iostream>
