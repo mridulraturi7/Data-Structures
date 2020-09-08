@@ -1,5 +1,8 @@
 /*
     Game with Nos.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/game-with-nos/0
+    Difficulty - Basic
 */
 
 #include<iostream>
