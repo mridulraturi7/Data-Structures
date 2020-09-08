@@ -1,5 +1,8 @@
 /*
     Balanced Array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/balanced-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
