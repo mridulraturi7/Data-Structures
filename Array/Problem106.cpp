@@ -1,5 +1,8 @@
 /*
     Find Number of Numbers.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-number-of-numbers/1
+    Difficulty - Basic
 */
 
 #include<iostream>
