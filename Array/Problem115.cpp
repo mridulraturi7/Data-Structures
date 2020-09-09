@@ -1,5 +1,8 @@
 /*
     Repeated Ids.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/repeated-ids/0
+    Difficulty - Basic
 */
 
 #include<iostream>
