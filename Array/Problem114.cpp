@@ -1,5 +1,8 @@
 /*
     Tough Competitors.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/tough-competitors/0
+    Difficulty - Basic
 */
 
 #include<iostream>
