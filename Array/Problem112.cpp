@@ -1,5 +1,8 @@
 /*
     Average Count Array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/average-count-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
