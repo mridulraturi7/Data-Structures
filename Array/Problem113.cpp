@@ -1,5 +1,5 @@
 /*
-    Count Pair SUm.
+    Count Pair Sum.
     Problem is taken from GFG.
     Problem Statement - https://practice.geeksforgeeks.org/problems/count-pair-sum/0
     Difficulty - Basic
