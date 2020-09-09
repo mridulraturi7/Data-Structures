@@ -1,5 +1,8 @@
 /*
     Pair array product sum.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/pair-array-product-sum/0
+    Difficulty - Basic
 */
 
 #include<iostream>
