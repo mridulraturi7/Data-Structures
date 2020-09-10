@@ -30,14 +30,18 @@ int main()
             hash[array[i]]++;
         }
 
+        int found = -1;
+
         for(int i = 0; i < n; i++)
         {
             if(hash[array[i]] == k)
             {
-                cout<<array[i]<<endl;
+                found = array[i];
                 break;
             }
         }
+
+        cout<<found<<endl;
     }
 
     return 0;
