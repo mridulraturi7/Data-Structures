@@ -2,8 +2,9 @@
     Friendly Array.
 */
 
-#include<iostream>
-#include<cstdlib>
+#include <iostream>
+#include <cstdlib>
+#include <algorithm>
 
 using namespace std;
 
@@ -24,23 +25,25 @@ int main()
         }
 
         int friendliness = 0;
-
-        for(int i = 0; i < n; i++)
+        
+        sort(array, array + n);
+        
+        friendliness += abs(array[0] - array[1]);
+        
+        for(int i = 1; i < n - 1; i++)
         {
-            int minDiff = 100000;
-            for(int j = 0; j < n; j++)
+            if(abs(array[i] - array[i - 1]) < abs(array[i] - array[i + 1]))
             {
-                if(i != j)
-                {
-                    int current_diff = abs(array[i] - array[j]);
-                    if(current_diff < minDiff)
-                    {
-                        minDiff = current_diff;
-                    }
-                }
+                friendliness += abs(array[i] - array[i - 1]);
             }
-            friendliness += minDiff;
+            
+            else
+            {
+                friendliness += abs(array[i] - array[i + 1]);
+            }
         }
+        
+        friendliness += abs(array[n - 1] - array[n - 2]);
 
         cout<<friendliness<<endl;
     }
