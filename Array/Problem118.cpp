@@ -1,5 +1,8 @@
 /*
     Sum Array Puzzle.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sum-array-puzzle/1
+    Difficulty - Basic
 */
 
 #include<iostream>
