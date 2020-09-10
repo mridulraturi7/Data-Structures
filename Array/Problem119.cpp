@@ -1,5 +1,8 @@
 /*
     First element to occur k times.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/first-element-to-occur-k-times/0
+    Difficulty - Basic
 */
 
 #include<iostream>
