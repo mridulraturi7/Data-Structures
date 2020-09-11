@@ -1,5 +1,8 @@
 /*
     Count Pairs Odd XOR.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/count-pairs-odd-xor/0
+    Difficulty - Basic
 */
 
 #include<iostream>
