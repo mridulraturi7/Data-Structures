@@ -14,18 +14,21 @@ class Solution
     public:
         int maxProduct(int array[], int n)
         {
-            int max1 = 0, max2 = -1;
+            int max1 = 0, max2 = -1, maxIndex;
             for(int i = 0; i < n; i++)
             {
                 if(array[i] > max1)
                 {
                     max1 = array[i];
+                    maxIndex = i;
                 }
             }
 
+            array[maxIndex] = 0;
+
             for(int i = 0; i < n; i++)
             {
-                if(array[i] > max2 && array[i] != max1)
+                if(array[i] > max2)
                 {
                     max2 = array[i];
                 }
