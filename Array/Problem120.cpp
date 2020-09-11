@@ -6,6 +6,8 @@
 
 using namespace std;
 
+long long countXorPairs(long long array[], int n);
+
 int main()
 {
     int testCase;
@@ -16,27 +18,33 @@ int main()
         int n;
         cin>>n;
 
-        int *array = new int[n];
+        long long *array = new long long[n];
         for(int i = 0; i < n; i++)
         {
             cin>>array[i];
         }
 
-        int count = 0;
-
-        for(int i = 0; i < n - 1; i++)
-        {
-            for(int j = i + 1; j < n; j++)
-            {
-                if(((array[i] ^ array[j]) % 2) != 0)
-                {
-                    count++;
-                }
-            }
-        }
-
-        cout<<count<<endl;
+        cout<<countXorPairs(array, n)<<endl;
     }
 
     return 0;
+}
+
+long long countXorPairs(long long array[], int n)
+{
+    int even_numbers = 0, odd_numbers = 0;
+    for(int i = 0; i < n; i++)
+    {
+        if((array[i] % 2) == 0)
+        {
+            even_numbers++;
+        }
+
+        else
+        {
+            odd_numbers++;
+        }
+    }
+
+    return even_numbers * odd_numbers;
 }
