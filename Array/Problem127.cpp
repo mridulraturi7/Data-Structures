@@ -4,6 +4,7 @@
 
 #include<iostream>
 #include<cstdlib>
+#include<map>
 
 using namespace std;
 
@@ -12,39 +13,39 @@ class Solution
     public:
         long long distance(int array[], int n)
         {
-            int left, right;
-            
-            left = find(array, n, 1);
-
-            right = find(array, n, 2);
-
-            long long dis = 0;
-
-            int counter = 2;
-
-            while(right != -1)
-            {
-                dis += abs(left - right);
-
-                left = right;
-
-                right = find(array, n, ++counter);
-            }
-
-            return dis;
-        }
-
-        int find(int array[], int n, int element)
-        {
+            map<int, int> indexMap;
             for(int i = 0; i < n; i++)
             {
-                if(array[i] == element)
-                {
-                    return i;
-                }
+                indexMap[array[i]] = i;
             }
 
-            return -1;
+            long long distance = 0;
+
+            int count = 0;
+
+            int a, b;
+
+            for(auto i : indexMap)
+            {
+                if(count % 2 == 0)
+                {
+                    a = i.second;
+                }
+
+                if(count % 2 != 0)
+                {
+                    b = i.second;
+                }
+
+                if(count >= 1)
+                {
+                    distance += abs(a - b);
+                }
+
+                count++;
+            }
+
+            return distance;
         }
 };
 
