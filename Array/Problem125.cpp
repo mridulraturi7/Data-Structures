@@ -1,5 +1,8 @@
 /*
     Sort first half in ascending and second half in descending.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/sort-first-half-in-ascending-and-second-half-in-descending/0
+    Difficulty - Basic
 */
 
 #include<iostream>
