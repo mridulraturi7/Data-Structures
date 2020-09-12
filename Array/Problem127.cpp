@@ -4,7 +4,6 @@
 
 #include<iostream>
 #include<cstdlib>
-#include<map>
 
 using namespace std;
 
@@ -13,36 +12,18 @@ class Solution
     public:
         long long distance(int array[], int n)
         {
-            map<int, int> indexMap;
+            int *hash = new int[n + 1] ();
+
             for(int i = 0; i < n; i++)
             {
-                indexMap[array[i]] = i;
+                hash[array[i]] = i;
             }
-
+    
             long long distance = 0;
 
-            int count = 0;
-
-            int a, b;
-
-            for(auto i : indexMap)
+            for(int i = 1; i < n; i++)
             {
-                if(count % 2 == 0)
-                {
-                    a = i.second;
-                }
-
-                if(count % 2 != 0)
-                {
-                    b = i.second;
-                }
-
-                if(count >= 1)
-                {
-                    distance += abs(a - b);
-                }
-
-                count++;
+                distance += abs(hash[i] - hash[i + 1]);
             }
 
             return distance;
