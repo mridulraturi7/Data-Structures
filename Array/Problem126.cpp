@@ -1,5 +1,8 @@
 /*
     Find the closest number.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/find-the-closest-number/0
+    Difficulty - Basic
 */
 
 #include<iostream>
