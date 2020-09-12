@@ -13,23 +13,10 @@ class Solution
         long long distance(int array[], int n)
         {
             int left, right;
-            for(int i = 0; i < n; i++)
-            {
-                if(array[i] == 1)
-                {
-                    left = i;
-                    break;
-                }
-            }
+            
+            left = find(array, n, 1);
 
-            for(int i = 0; i < n; i++)
-            {
-                if(array[i] == 2)
-                {
-                    right = i;
-                    break;
-                }
-            }
+            right = find(array, n, 2);
 
             long long dis = 0;
 
