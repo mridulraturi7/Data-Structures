@@ -1,5 +1,8 @@
 /*
     Jay's Apples.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/jays-apples/0
+    Difficulty - Basic
 */
 
 #include<iostream>
