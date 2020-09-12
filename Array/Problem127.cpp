@@ -1,5 +1,8 @@
 /*
     Total distance travelled in an array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/total-distance-travelled-in-an-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
