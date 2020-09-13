@@ -3,9 +3,11 @@
 */
 
 #include<iostream>
-#include<algorithm>
+#include<cstdlib>
 
 using namespace std;
+
+int calculateOperations(int array[], int n);
 
 int main()
 {
@@ -23,39 +25,33 @@ int main()
             cin>>array[i];
         }
 
-        int max = *max_element(array, array + n);
-        int min = *min_element(array, array + n);
-
-        int operations = 0;
-
-        while(min != max)
-        {
-            for(int i = 0; i < n; i++)
-            {
-                if(array[i] == max)
-                {
-                    array[i]--;
-                    break;
-                }
-            }
-
-            for(int i = 0; i < n; i++)
-            {
-                if(array[i] == min)
-                {
-                    array[i]++;
-                    break;
-                }
-            }
-
-            operations++;
-
-            max = *max_element(array, array + n);
-            min = *min_element(array, array + n);
-        }
-
-        cout<<operations<<endl;
+        cout<<calculateOperations(array, n)<<endl;
     }
 
     return 0;
+}
+
+int calculateOperations(int array[], int n)
+{
+    int sum = 0;
+
+    for(int i = 0; i < n; i++)
+    {
+        sum += array[i];
+    }
+
+    if((sum % n) != 0)
+    {
+        return -1;
+    }
+
+    int eq = sum / n;
+    int sum_diff = 0;
+
+    for(int i = 0; i < n; i++)
+    {
+        sum_diff += abs(array[i] - eq);
+    }
+
+    return sum_diff / 2;
 }
