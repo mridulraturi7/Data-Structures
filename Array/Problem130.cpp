@@ -28,7 +28,9 @@ int main()
             cin>>array[i];
         }
 
-        cout<<calculateOperations(array, n)<<endl;
+        int res = calculateOperations(array, n);
+
+        cout<<res<<endl;
     }
 
     return 0;
