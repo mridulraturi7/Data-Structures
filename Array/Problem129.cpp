@@ -1,5 +1,8 @@
 /*
     Minimize sum of alternate product.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/minimize-sum-of-alternate-product/0
+    Difficulty - Basic
 */
 
 #include<iostream>
