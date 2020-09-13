@@ -48,8 +48,7 @@ int calculateOperations(int array[], int n)
         return -1;
     }
 
-    int eq = sum / n;
-    int sum_diff = 0;
+    int eq = sum / n, sum_diff = 0;
 
     for(int i = 0; i < n; i++)
     {
