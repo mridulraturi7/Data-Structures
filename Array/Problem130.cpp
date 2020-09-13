@@ -26,9 +26,9 @@ int main()
         int max = *max_element(array, array + n);
         int min = *min_element(array, array + n);
 
-        int operations = 0, m = max;
+        int operations = 0;
 
-        while(min != max && operations < m)
+        while(min != max)
         {
             for(int i = 0; i < n; i++)
             {
@@ -54,15 +54,7 @@ int main()
             min = *min_element(array, array + n);
         }
 
-        if(operations > m)
-        {
-            cout<<"-1"<<endl;
-        }
-
-        else
-        {
-            cout<<operations<<endl;
-        }
+        cout<<operations<<endl;
     }
 
     return 0;
