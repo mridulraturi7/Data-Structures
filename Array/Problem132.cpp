@@ -1,5 +1,8 @@
 /*
     Why is Melody so Chocolaty?
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/why-is-melody-so-chocolaty/0
+    Difficulty - Basic
 */
 
 #include<iostream>
