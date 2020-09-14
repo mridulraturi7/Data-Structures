@@ -6,6 +6,8 @@
 
 using namespace std;
 
+long long int product(int array[], int n, long long mod);
+
 int main()
 {
     int testCase;
@@ -30,3 +32,14 @@ int main()
     return 0;
 }
 
+long long int product(int array[], int n, long long mod)
+{
+    long long int prod = 1;
+    for(int i = 0; i < n; i++)
+    {
+        prod = prod * array[i];
+        prod = prod % mod;
+    }
+
+    return prod;
+}
