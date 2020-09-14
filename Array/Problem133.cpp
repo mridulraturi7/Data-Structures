@@ -1,5 +1,8 @@
 /*
-    Operating an Array. 
+    Operating an Array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/operating-an-array/1
+    Difficulty - Basic
 */
 
 #include<iostream>
