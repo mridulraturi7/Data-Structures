@@ -25,7 +25,7 @@ int main()
             cin>>array[i];
         }
 
-        int max_happiness = 0;
+        int max_happiness = -100000;
 
         for(int i = 0; i < n - 1; i++)
         {
