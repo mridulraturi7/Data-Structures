@@ -1,5 +1,8 @@
 /*
     Product of array elements.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/product-of-array-element/1
+    Difficulty - Basic
 */
 
 #include<iostream>
