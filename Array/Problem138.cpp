@@ -1,5 +1,8 @@
 /*
     Absolute Distinct Count.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/absolute-distinct-count/0
+    Difficulty - Basic
 */
 
 #include<iostream>
