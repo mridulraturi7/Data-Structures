@@ -1,5 +1,8 @@
 /*
     Minimum Sum of two elements from two arrays.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/minimum-sum-of-two-elements-from-two-arrays/0
+    Difficulty - Basic
 */
 
 #include<iostream>
