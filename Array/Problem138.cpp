@@ -51,9 +51,7 @@ class Solution
                 {
                     r--;
                 }
-                
             }
-
             return distinct;
         }
 };
