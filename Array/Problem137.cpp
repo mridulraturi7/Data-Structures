@@ -14,21 +14,16 @@ class Solution
     public:
         int minNumber(long long int array[], int n)
         {
-            long long int sum = 0;
+            int odd_count = 0;
             for(int i = 0; i < n; i++)
             {
-                sum += array[i];
+                if((array[i] % 2) != 0)
+                {
+                    odd_count++;
+                }
             }
 
-            if(sum % 2 == 0)
-            {
-                return 2;
-            }
-
-            else
-            {
-                return 1;
-            } 
+            return (odd_count % 2) == 0 ? 2 : 1;
         }
 };
 
