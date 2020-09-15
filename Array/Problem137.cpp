@@ -28,8 +28,7 @@ class Solution
             else
             {
                 return 1;
-            }
-            
+            } 
         }
 };
 
