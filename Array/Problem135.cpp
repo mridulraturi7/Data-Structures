@@ -1,5 +1,8 @@
 /*
     Searching a number.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/searching-a-number0324/1
+    Difficulty - Basic
 */
 
 #include<iostream>
