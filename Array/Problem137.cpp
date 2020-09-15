@@ -1,5 +1,8 @@
 /*
     Minimum number to form the sum even.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/minimum-number-to-form-the-sum-even/0
+    Difficulty - Basic
 */
 
 #include<iostream>
