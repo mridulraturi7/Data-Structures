@@ -26,7 +26,6 @@ class Solution
             }
 
             return index;
-
         }
 };
 
@@ -48,7 +47,6 @@ int main()
 
         Solution s;
         cout<<s.getIndexInSortedArray(array, n, initial_index)<<endl;
-
     }
 
     return 0;
