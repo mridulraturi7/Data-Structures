@@ -1,5 +1,9 @@
 /*
     Stable Sort and Position.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/stable-sort-and-position1359/1
+    Difficulty - Basic
+
 */
 
 #include<iostream>
