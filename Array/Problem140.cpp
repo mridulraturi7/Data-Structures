@@ -15,7 +15,7 @@ class Solution
     public:
         int getIndexInSortedArray(int array[], int n, int initial_index)
         {
-            int index;
+            int index = 0;
 
             for(int i = 0; i < n; i++)
             {
