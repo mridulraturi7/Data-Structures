@@ -1,5 +1,8 @@
 /*
     Remove duplicates from unsorted array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/remove-duplicates-from-unsorted-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
