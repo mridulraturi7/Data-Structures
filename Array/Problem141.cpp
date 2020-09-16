@@ -3,8 +3,7 @@
 */
 
 #include<iostream>
-#include<algorithm>
-#include<vector>
+#include<unordered_map>
 
 using namespace std;
 
@@ -24,22 +23,20 @@ int main()
             cin>>array[i];
         }
 
-        sort(array, array + n);
+        unordered_map<int, int> hash;
 
-        vector<int> vec;
-        for(int i = 0; i < n - 1; i++)
+        for(int i = 0; i < n; i++)
         {
-            if(array[i] != array[i + 1])
-            {
-                vec.push_back(array[i]);
-            }
+            hash[array[i]] = 1;
         }
 
-        vec.push_back(array[n - 1]);
-
-        for(int i = 0; i < vec.size(); i++)
+        for(int i = 0; i < n; i++)
         {
-            cout<<vec[i]<<" ";
+            if(hash[array[i]] == 1)
+            {
+                cout<<array[i]<<" ";
+                hash[array[i]] = 0;
+            }
         }
 
         cout<<endl;
