@@ -1,5 +1,8 @@
 /*
     Tiger Zinda Hai.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/tiger-zinda-hai/0
+    Difficulty - Basic
 */
 
 #include<iostream>
