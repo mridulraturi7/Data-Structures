@@ -1,5 +1,8 @@
 /*
     Form a triangle.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/form-a-triangle/0
+    Difficulty - Basic
 */
 
 #include<iostream>
