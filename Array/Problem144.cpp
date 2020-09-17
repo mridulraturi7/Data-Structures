@@ -1,5 +1,8 @@
 /*
     King's War.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/kings-war/0
+    Difficulty - Basic
 */
 
 #include<iostream>
@@ -35,7 +38,7 @@ int main()
                 killed_by_king++;
             }
         }
-        
+
         cout<<n - killed_by_king<<endl;
     }
 }
