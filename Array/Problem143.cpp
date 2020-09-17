@@ -3,6 +3,7 @@
 */
 
 #include<iostream>
+#include<algorithm>
 
 using namespace std;
 
@@ -21,6 +22,8 @@ int main()
         {
             cin>>array[i];
         }
+
+        sort(array, array + n);
 
         int count = 0;
         for(int i = n - 1; i > 1; i--)
