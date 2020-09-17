@@ -35,7 +35,6 @@ int main()
                 killed_by_king++;
             }
         }
-
         cout<<n - killed_by_king<<endl;
     }
 }
