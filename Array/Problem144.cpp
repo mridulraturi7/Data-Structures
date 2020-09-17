@@ -39,6 +39,6 @@ int main()
             }
         }
 
-        cout<<n - killed_by_king<<endl;
+        cout<<(n - killed_by_king)<<endl;
     }
 }
