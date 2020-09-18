@@ -1,5 +1,8 @@
 /*
     Powers Game.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/powers-game/0
+    Difficulty - Basic
 */
 
 #include<iostream>
