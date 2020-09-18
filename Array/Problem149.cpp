@@ -25,7 +25,7 @@ class Solution
             return count;
         }
 
-        bool isFibNumber(int num)
+        bool isFibNumber(long long num)
         {
             long long n1 = (5 * num * num) + 4;
             long long n2 = (5 * num * num) - 4;
@@ -33,9 +33,9 @@ class Solution
             return isPerfectSquare(n1) || isPerfectSquare(n2);
         }
 
-        bool isPerfectSquare(int x)
+        bool isPerfectSquare(long long x)
         {
-            int sq_root = sqrt(x);
+            long sq_root = sqrt(x);
 
             return (sq_root * sq_root == x);
         }
