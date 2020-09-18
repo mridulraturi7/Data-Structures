@@ -1,5 +1,8 @@
 /*
     Maximum Perimeter of Triangle from array.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/maximum-perimeter-of-triangle-from-array/0
+    Difficulty - Basic
 */
 
 #include<iostream>
