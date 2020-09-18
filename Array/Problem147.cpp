@@ -26,7 +26,7 @@ int main()
         for(int i = 0; i < n; i++)
         {
             prod *= x;
-            int temp = prod;
+            long long int temp = prod;
             while(temp != 0)
             {
                 int rem = temp % 10;
