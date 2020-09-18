@@ -26,9 +26,10 @@ int main()
         int maxPerimeter = -1;
 
         sort(array, array + n);
+
         for(int i = n - 1; i > 1; i--)
         {
-            if(array[i - 1] + array[i - 2] > array[i] && array[i - 2] + array[i] > array[i - 1] && array[i - 1] + array[i] > array[i - 2])
+            if((array[i - 1] + array[i - 2] > array[i]) && (array[i - 2] + array[i] > array[i - 1]) && (array[i - 1] + array[i] > array[i - 2]))
             {
                 maxPerimeter = array[i] + array[i - 1] + array[i - 2];
                 break;
