@@ -1,5 +1,8 @@
 /*
     How many Pizzas?
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/how-many-pizzas/0
+    Difficulty - Basic
 */
 
 #include<iostream>
