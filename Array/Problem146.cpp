@@ -1,5 +1,8 @@
 /*
     Countries at War.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/countries-at-war/0
+    Difficulty - Basic
 */
 
 #include<iostream>
