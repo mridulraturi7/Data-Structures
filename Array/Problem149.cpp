@@ -31,7 +31,7 @@ class Solution
         bool isFibNumber(long long num)
         {
             /*
-                A number is said to be fibonacci if and only if one or both of (5n^2 + 4) or (5n^2 - 4) 
+                A number "n" is said to be fibonacci if and only if one or both of (5*n^2 + 4) or (5*n^2 - 4) 
                 is a perfect square.
             */
             long long n1 = (5 * num * num) + 4;
