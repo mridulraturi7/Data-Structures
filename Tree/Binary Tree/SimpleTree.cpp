@@ -52,6 +52,16 @@ int main()
     */
 
     root->left->left = new Node(4);
+    /*
+        Current Status:
+                            1
+                           / \
+                          2   3
+                         / \ / \
+                        4 NU NU NU
+                       / \LL LL LL
+                    NULL NULL
+    */
 
     return 0;
 }
