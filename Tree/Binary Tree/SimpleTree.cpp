@@ -8,6 +8,8 @@
                 /
                /
               4
+
+    A tree whose elements have at most 2 children is called a binary tree.
 */
 
 #include<iostream>
