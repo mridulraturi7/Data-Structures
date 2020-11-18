@@ -1,4 +1,6 @@
 /*
+    Implemntation 1.
+
     Create a simple binary tree as following:
                     
                     1
