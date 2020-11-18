@@ -32,6 +32,13 @@ int main()
 {
     //Create root node.
     struct Node *root = new Node(1);
+    /*
+        Current Status:
+                            1
+                           / \
+                        NULL  NULL
+    */
+
     root->left = new Node(2);
     root->right = new Node(3);
 
