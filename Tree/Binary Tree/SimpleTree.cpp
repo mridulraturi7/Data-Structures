@@ -60,7 +60,8 @@ int main()
                          / \ / \
                         4 NU NU NU
                        / \LL LL LL
-                    NULL NULL
+                      NU NU
+                      LL LL
     */
 
     return 0;
