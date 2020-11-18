@@ -59,7 +59,7 @@ int main()
                           2   3
                          / \ / \
                         4 NU NU NU
-                       / \LL LL LL
+                       /\LL LL LL
                       NU NU
                       LL LL
     */
