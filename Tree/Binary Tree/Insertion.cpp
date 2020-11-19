@@ -92,6 +92,7 @@ int main()
 
     cout<<"Inorder Traversal Before Insertion: ";
     inorder(root);
+    cout<<endl;
 
     int key;
     cout<<"Enter node key to insert: ";
