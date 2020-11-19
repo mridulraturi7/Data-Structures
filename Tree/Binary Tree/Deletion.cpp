@@ -3,6 +3,7 @@
 */
 
 #include<iostream>
+#include<queue>
 
 using namespace std;
 
@@ -29,9 +30,124 @@ Node* createNode(int data)
     return newNode;
 }
 
+void deleteLastNode(struct Node *root, struct Node *last_node)
+{
+    queue<struct Node*> q;
+    q.push(root);
+
+    while(!q.empty())
+    {
+        struct Node *temp = q.front();
+        q.pop();
+
+        if(temp == last_node)
+        {
+            temp = NULL;
+            delete last_node;
+            return;
+        }
+
+        if(temp->left != NULL)
+        {
+            if(temp->left == last_node)
+            {
+                temp->left = NULL;
+                delete last_node;
+                return;
+            }
+            else
+            {
+                q.push(temp->left);
+            }
+        }
+
+        if(temp->right != NULL)
+        {
+            if(temp->right == last_node)
+            {
+                temp->right = NULL;
+                delete last_node;
+                return;
+            }
+            else
+            {
+                q.push(temp->right);
+            }
+        }
+    }
+}
+
+Node* deleteNode(struct Node* root, int data)
+{
+    if(root == NULL)
+    {
+        return NULL;
+    }
+
+    if(root->left == NULL && root->right == NULL)
+    {
+        if(root->data == data)
+        {
+            return NULL;
+        }
+        else
+        {
+            return root;
+        }
+    }
+
+    queue<struct Node*> q;
+    q.push(root);
+
+    struct Node *last_node;
+    struct Node *node_to_delete = NULL;
+
+    while(!q.empty())
+    {
+        last_node = q.front();
+        q.pop();
+
+        if(last_node->data == data)
+        {
+            node_to_delete = last_node;
+        }
+
+        if(last_node->left != NULL)
+        {
+            q.push(last_node->left);
+        }
+
+        if(last_node->right != NULL)
+        {
+            q.push(last_node->right);
+        }
+    }
+
+    if(node_to_delete != NULL)
+    {
+        int key = last_node->data;
+        deleteLastNode(root, last_node);
+        node_to_delete->data = key;
+    }
+
+    return root;
+}
+
+void inorder(struct Node* temp)
+{
+    if(temp == NULL)
+    {
+        return;
+    }
+
+    inorder(temp->left);
+    cout<<temp->data<<" ";
+    inorder(temp->right);
+}
+
 int main()
 {
-    struct Node* root = createNode(10);
+    struct Node *root = createNode(10);
     root->left = createNode(11);
     root->right = createNode(9);
 
