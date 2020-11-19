@@ -43,7 +43,7 @@ Node* insertNode(Node *root, int data)
         return root;
     }
 
-    //Else perform level traversal until we find the first empty space to insert the node
+    //Else perform level order traversal until we find the first empty space to insert the node
     queue<struct Node*> q;
     q.push(root);
 
