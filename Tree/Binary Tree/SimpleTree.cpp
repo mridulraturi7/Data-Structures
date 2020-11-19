@@ -32,6 +32,18 @@ struct Node
     }
 };
 
+void inorder(Node *temp)
+{
+    if(temp == NULL)
+    {
+        return;
+    }
+
+    inorder(temp->left);
+    cout<<temp->data<<" ";
+    inorder(temp->right);
+}
+
 int main()
 {
     //Create root node.
@@ -67,6 +79,8 @@ int main()
                       NU NU
                       LL LL
     */
+
+    inorder(root);
 
     return 0;
 }
