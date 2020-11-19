@@ -36,12 +36,14 @@ Node* createNode(int data)
 
 Node* insertNode(Node *root, int data)
 {
+    //Check if the tree is empty, if empty - make new node as root
     if(root == NULL)
     {
         root = createNode(data);
         return root;
     }
 
+    //Else perform level traversal until we find the first empty space to insert the node
     queue<struct Node*> q;
     q.push(root);
 
