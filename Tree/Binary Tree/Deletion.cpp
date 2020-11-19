@@ -1,5 +1,10 @@
 /*
     Implementation 3.
+
+    Deletion in a Binary Tree.
+
+    Given a binary tree and a key, delete the node with given key making sure that the tree shrinks from the
+    bottom, i.e., the deleted node must be replaced by the bottom most and right most node.
 */
 
 #include<iostream>
