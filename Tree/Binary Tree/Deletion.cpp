@@ -40,6 +40,7 @@ void deleteLastNode(struct Node *root, struct Node *last_node)
     queue<struct Node*> q;
     q.push(root);
 
+    //Perfrom level order traversal to delete the last node.
     while(!q.empty())
     {
         struct Node *temp = q.front();
@@ -82,13 +83,21 @@ void deleteLastNode(struct Node *root, struct Node *last_node)
     }
 }
 
+/*
+    This function will find the:
+        i. node to be deleted,
+        ii. deepest and rightmost node(last node of tree).
+*/
+
 Node* deleteNode(struct Node* root, int data)
 {
+    //Check if the tree is empty, we can't delete anything
     if(root == NULL)
     {
         return NULL;
     }
 
+    //If the tree has only one node(i.e., root node), then check whether we have to delete root node or not.
     if(root->left == NULL && root->right == NULL)
     {
         if(root->data == data)
@@ -101,6 +110,7 @@ Node* deleteNode(struct Node* root, int data)
         }
     }
 
+    //Else perform level order traversal to find out both the nodes: node to delete and the last node.
     queue<struct Node*> q;
     q.push(root);
 
@@ -128,6 +138,7 @@ Node* deleteNode(struct Node* root, int data)
         }
     }
 
+    //if the node to delete exists in tree then replace it with last node and call the function to delete last node.
     if(node_to_delete != NULL)
     {
         int key = last_node->data;
