@@ -149,6 +149,7 @@ Node* deleteNode(struct Node* root, int data)
     return root;
 }
 
+//Perfrom Inorder Traversal
 void inorder(struct Node* temp)
 {
     if(temp == NULL)
