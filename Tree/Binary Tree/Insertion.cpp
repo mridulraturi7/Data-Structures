@@ -1,5 +1,7 @@
 /*
     Insertion in a Binary Tree.
+
+    Given a binary tree and a key, insert the key into the tree at the first position available in level order.
 */
 
 #include<iostream>
