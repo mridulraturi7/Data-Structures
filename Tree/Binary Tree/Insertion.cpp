@@ -20,7 +20,7 @@ struct Node
 
 Node* createNode(int data)
 {
-    Node *newNode = new Node();
+    struct Node *newNode = new Node();
     if(!newNode)
     {
         cout<<"Memory Error!!"<<endl;
@@ -49,7 +49,7 @@ Node* insertNode(Node *root, int data)
 
     while(!q.empty())
     {
-        Node *temp = q.front();
+        struct Node *temp = q.front();
         q.pop();
 
         if(temp->left != NULL)
@@ -89,7 +89,7 @@ void inorder(Node *temp)
 
 int main()
 {
-    Node *root = createNode(10);
+    struct Node *root = createNode(10);
     root->left = createNode(11);
     root->left->left = createNode(7);
 
