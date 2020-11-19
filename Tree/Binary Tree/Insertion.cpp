@@ -74,6 +74,7 @@ Node* insertNode(Node *root, int data)
     }
 }
 
+//Perform Inorder Traversal
 void inorder(Node *temp)
 {
     if(temp == NULL)
