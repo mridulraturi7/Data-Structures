@@ -1,5 +1,5 @@
 /*
-    Implemntation 1.
+    Implementation 1.
 
     AIM - Create a simple binary tree as following:
                     
