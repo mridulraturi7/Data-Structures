@@ -21,6 +21,10 @@ Node* createNode(int data)
         cout<<"Memory Error!!";
         return NULL;
     }
+
+    newNode->data = data;
+    newNode->left = NULL;
+    newNode->right = NULL;
 }
 
 void inorder(Node *temp)
