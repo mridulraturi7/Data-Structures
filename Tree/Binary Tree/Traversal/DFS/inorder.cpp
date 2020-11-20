@@ -1,6 +1,6 @@
 /*
     Implementation 4.
-    
+
     Inorder Traversal of a Binary Tree.
 
     Inorder Traversal - Left, Root, Right.
@@ -19,7 +19,7 @@ struct Node
 
 Node* createNode(int data)
 {
-    Node *newNode = new Node();
+    struct Node *newNode = new Node();
     if(newNode == NULL)
     {
         cout<<"Memory Error!!";
