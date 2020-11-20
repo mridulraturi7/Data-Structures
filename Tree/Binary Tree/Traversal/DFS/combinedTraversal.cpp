@@ -1,5 +1,11 @@
 /*
+    Implementation 7.
+
     All the Depth First traversals in a single program.
+
+    Inorder Traversal - Left, Root, Right.
+    Preorder Traversal - Root, Left, Right.
+    Postorder Traversal - Left, Right, Root.
 */
 
 #include<iostream>
