@@ -33,6 +33,7 @@ Node* createNode(int data)
     newNode->right = NULL;
 }
 
+//Inorder Traversal
 void inorder(Node *temp)
 {
     if(temp == NULL)
@@ -45,6 +46,7 @@ void inorder(Node *temp)
     inorder(temp->right);
 }
 
+//Preorder Traversal
 void preorder(Node *temp)
 {
     if(temp == NULL)
@@ -57,6 +59,7 @@ void preorder(Node *temp)
     preorder(temp->right);
 }
 
+//Postorder Traversal
 void postorder(Node *temp)
 {
     if(temp == NULL)
