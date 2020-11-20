@@ -70,9 +70,11 @@ int main()
 
     cout<<"Inorder Traversal of the Binary Tree: ";
     inorder(root);
+    cout<<endl;
 
     cout<<"Preorder Traversal of the Binary Tree: ";
     preorder(root);
+    cout<<endl;
 
     cout<<"Postorder Traversal of the Binary Tree: ";
     postorder(root);
