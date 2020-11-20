@@ -1,5 +1,9 @@
 /*
+    Implementation 5.
+
     Preorder Traversal of a Binary Tree.
+
+    Preorder Traversal - Root, Left, Right.
 */
 
 #include<iostream>
