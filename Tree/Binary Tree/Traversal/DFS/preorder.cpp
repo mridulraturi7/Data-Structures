@@ -34,7 +34,7 @@ void preorder(Node *temp)
         return;
     }
 
-    cout<<temp->data;
+    cout<<temp->data<<" ";
     preorder(temp->left);
     preorder(temp->right);
 }
