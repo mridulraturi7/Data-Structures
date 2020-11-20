@@ -1,5 +1,9 @@
 /*
+    Implementation 6.
+
     Postorder Traversal of a Binary Tree.
+
+    Postorder Traversal - Left, Right, Root.
 */
 
 #include<iostream>
