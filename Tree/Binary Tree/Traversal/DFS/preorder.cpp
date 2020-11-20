@@ -19,7 +19,7 @@ struct Node
 
 Node* createNode(int data)
 {
-    Node *newNode = new Node();
+    struct Node *newNode = new Node();
     if(!newNode)
     {
         cout<<"Memory Error!!";
