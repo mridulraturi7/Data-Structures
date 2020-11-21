@@ -4,6 +4,9 @@
     Inorder Traversal of a Binary Tree.
 
     Inorder Traversal - Left, Root, Right.
+
+    Time Complexity - O(n) , n is the number of nodes.
+    Space Complexity - O(n) , n is the number of nodes.
 */
 
 #include<iostream>
