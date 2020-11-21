@@ -1,5 +1,11 @@
 /*
+    Implementation 10.
+
     Array Representation of a Binary Tree.
+
+    For Array Indexing(0 to n - 1), if parent node is at index 'p', then
+                        left child index = (2 * p) + 1;
+                        right child index = (2 * p) + 2;
 */
 
 #include<iostream>
