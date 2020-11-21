@@ -4,6 +4,9 @@
     Postorder Traversal of a Binary Tree.
 
     Postorder Traversal - Left, Right, Root.
+
+    Time Complexity - O(n) , n is the number of nodes.
+    Space Complexity - O(n) , n is the number of nodes.
 */
 
 #include<iostream>
