@@ -6,6 +6,13 @@
     For Array Indexing(0 to n - 1), if parent node is at index 'p', then
                         left child index = (2 * p) + 1;
                         right child index = (2 * p) + 2;
+
+    Create the following binary tree using array representation:
+                    A(0)
+                   / \
+               (1)B   C(2)
+                 / \    \
+             (3)D  E(4)  F(6)
 */
 
 #include<iostream>
