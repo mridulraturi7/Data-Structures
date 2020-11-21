@@ -4,6 +4,9 @@
     Preorder Traversal of a Binary Tree.
 
     Preorder Traversal - Root, Left, Right.
+
+    Time Complexity - O(n) , n is the number of nodes.
+    Space Complexity - O(n) , n is the number of nodes.
 */
 
 #include<iostream>
