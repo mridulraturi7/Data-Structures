@@ -51,11 +51,7 @@ void printTree()
     {
         if(tree[i] != '\0')
         {
-            cout<<tree[i];
-        }
-        else
-        {
-            cout<<"-";
+            cout<<tree[i]<<" ";
         }
     }
 }
