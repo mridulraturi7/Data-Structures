@@ -1,5 +1,16 @@
 /*
+    Implementation 12.
+
     Preorder Traversal of a Binary Tree using Stack (Iterative).
+
+    Algorithm:
+        Create a stack and push the root node into stack.
+        while(stack is not empty)
+        {
+            Pop an element from stack.
+            Push the right child of popped element.
+            Push the left child of popped element.
+        }
 */
 
 #include<iostream>
