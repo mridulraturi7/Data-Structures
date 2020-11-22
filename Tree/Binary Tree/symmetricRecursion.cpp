@@ -1,4 +1,6 @@
 /*
+    Implementation 16.
+    
     Symmetric Tree (Mirror Image of itself).
 */
 
