@@ -30,6 +30,7 @@ Node* createNode(int data)
 
 void inorder(struct Node *root)
 {
+    //Check if the binary tree is empty.
     if(root == NULL)
     {
         return;
@@ -38,19 +39,23 @@ void inorder(struct Node *root)
     stack<struct Node*> s;
     struct Node *current = root;
 
+    //Traversal will be done until current becomes NULL and the stack gets empty.
     while(current != NULL || s.empty() == false)
     {
+        //Visit ti the left most node of the current node.
         while(current != NULL)
         {
             s.push(current);
             current = current->left;
         }
 
+        //current will be NULL here
         current = s.top();
         s.pop();
 
         cout<<current->data<<" ";
 
+        //Now visit the right subtree
         current = current->right;
     }
 }
