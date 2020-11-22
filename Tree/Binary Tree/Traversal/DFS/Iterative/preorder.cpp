@@ -41,6 +41,7 @@ Node* createNode(int data)
 
 void preorder(struct Node *root)
 {
+    //Check if the tree is empty.
     if(root == NULL)
     {
         return;
@@ -56,6 +57,7 @@ void preorder(struct Node *root)
 
         cout<<current->data<<" ";
 
+        //Right child is pushed befor left so that left will come at top and processed first.
         if(current->right != NULL)
         {
             s.push(current->right);
