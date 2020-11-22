@@ -122,6 +122,47 @@ void postorderUsingTwoStacks(struct Node *root)
     }
 }
 
+void postorderUsingSingleStack(struct Node *root)
+{
+    if(root == NULL)
+    {
+        return;
+    }
+
+    stack<struct Node*> s;
+    struct Node *current = root;
+
+    do
+    {
+        while(current != NULL)
+        {
+            if(current->right)
+            {
+                s.push(current->right);
+            }
+            s.push(current);
+            current = current->left;
+        }
+
+        current = s.top();
+        s.pop();
+
+        if(s.empty() == false && current->right == s.top())
+        {
+            s.pop();
+            s.push(current);
+            current = current->right;
+        }
+
+        else
+        {
+            cout<<current->data<<" ";
+            current = NULL;
+        }
+        
+    }while(s.empty() == false);
+}
+
 int main()
 {
     struct Node *root = createNode(1);
@@ -142,6 +183,9 @@ int main()
     cout<<"Postorder Traversal of the Binary Tree using two stacks: ";
     postorderUsingTwoStacks(root);
     cout<<endl;
+
+    cout<<"Postorder Traversal of the Binary Tree using single stack: ";
+    postorderUsingSingleStack(root);
 
     return 0;
 }
