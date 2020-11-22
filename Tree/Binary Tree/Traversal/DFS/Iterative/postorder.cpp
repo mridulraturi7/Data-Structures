@@ -1,5 +1,17 @@
 /*
+    Implementation 13.
+
     Postorder Traversal of a Binary Tree using Stack.
+
+    Algorithm:
+        Create two stacks s1 and s2, push the root node into s1.
+        while(s1 is not empty)
+        {
+            Pop a node from s1 and push it to s2.
+            Push the left child of popped node into s1.
+            Push the right child of popped node into s2.
+        }
+        Print the contents of s2.
 */
 
 #include<iostream>
