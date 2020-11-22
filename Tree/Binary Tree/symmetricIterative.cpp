@@ -34,6 +34,11 @@ bool checkSymmetric(struct Node *root)
         return true;
     }
 
+    if(root->left == NULL && root->right == NULL)
+    {
+        return true;
+    }
+
     queue<struct Node*> q;
 
     struct Node *leftNode, *rightNode;
