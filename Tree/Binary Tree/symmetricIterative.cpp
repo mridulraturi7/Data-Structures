@@ -29,22 +29,23 @@ Node* createNode(int data)
 
 bool checkSymmetric(struct Node *root)
 {
+    //Check if the tree is empty, then it is symmetric.
     if(root == NULL)
     {
         return true;
     }
 
+    //If the tree is single node tree, then it is symmetric.
     if(root->left == NULL && root->right == NULL)
     {
         return true;
     }
 
     queue<struct Node*> q;
-
-    struct Node *leftNode, *rightNode;
-
     q.push(root->left);
     q.push(root->right);
+
+    struct Node *leftNode, *rightNode;
 
     while(q.empty() == false)
     {
@@ -65,6 +66,7 @@ bool checkSymmetric(struct Node *root)
             q.push(rightNode->right);
         }
 
+        //Return false if only one child is present.
         else if((leftNode->left == NULL && rightNode->right != NULL) || (leftNode->left != NULL && rightNode->right == NULL))
         {
             return false;
@@ -76,6 +78,7 @@ bool checkSymmetric(struct Node *root)
             q.push(rightNode->left);
         }
 
+        //Return false if only one child is present.
         else if((leftNode->right == NULL && rightNode->left != NULL) || (leftNode->right != NULL && rightNode->left == NULL))
         {
             return false;
