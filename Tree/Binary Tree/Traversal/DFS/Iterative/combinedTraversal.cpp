@@ -57,6 +57,35 @@ void inorder(struct Node *root)
     }
 }
 
+void preorder(struct Node *root)
+{
+    if(root == NULL)
+    {
+        return;
+    }
+
+    stack<struct Node*> s;
+    s.push(root);
+
+    while(s.empty() == false)
+    {
+        struct Node *current = s.top();
+        s.pop();
+
+        cout<<current->data<<" ";
+
+        if(current->right)
+        {
+            s.push(current->right);
+        }
+
+        if(current->left)
+        {
+            s.push(current->left);
+        }
+    }
+}
+
 int main()
 {
     struct Node *root = createNode(1);
@@ -68,6 +97,10 @@ int main()
 
     cout<<"Inorder Traversal of the Binary Tree: ";
     inorder(root);
+    cout<<endl;
+
+    cout<<"Preorder Traversal of the Binary Tree: ";
+    preorder(root);
     cout<<endl;
 
     return 0;
