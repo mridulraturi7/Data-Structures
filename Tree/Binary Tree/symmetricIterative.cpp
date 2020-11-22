@@ -1,4 +1,6 @@
 /*
+    Implementation 17.
+    
     Check whether a tree is symmetric or not.
 */
 
