@@ -86,6 +86,42 @@ void preorder(struct Node *root)
     }
 }
 
+void postorderUsingTwoStacks(struct Node *root)
+{
+    if(root == NULL)
+    {
+        return;
+    }
+
+    stack<struct Node*> s1, s2;
+    s1.push(root);
+
+    while(s1.empty() == false)
+    {
+        struct Node *current = s1.top();
+        s1.pop();
+
+        s2.push(current);
+
+        if(current->left)
+        {
+            s1.push(current->left);
+        }
+
+        if(current->right)
+        {
+            s1.push(current->right);
+        }
+    }
+
+    while(s2.empty() == false)
+    {
+        struct Node *node = s2.top();
+        s2.pop();
+        cout<<node->data<<" ";
+    }
+}
+
 int main()
 {
     struct Node *root = createNode(1);
@@ -101,6 +137,10 @@ int main()
 
     cout<<"Preorder Traversal of the Binary Tree: ";
     preorder(root);
+    cout<<endl;
+
+    cout<<"Postorder Traversal of the Binary Tree using two stacks: ";
+    postorderUsingTwoStacks(root);
     cout<<endl;
 
     return 0;
