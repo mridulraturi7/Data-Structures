@@ -1,7 +1,7 @@
 /*
     Implementation 13.
 
-    Postorder Traversal of a Binary Tree using Stack.
+    Postorder Traversal of a Binary Tree using two Stacks.
 
     Algorithm:
         Create two stacks s1 and s2, push the root node into s1.
