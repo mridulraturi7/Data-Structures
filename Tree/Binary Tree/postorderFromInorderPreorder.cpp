@@ -3,6 +3,9 @@
 
     Find the postorder traversal of a binary tree given its inorder and preorder traversal.
 
+    A direct approach would be to first construct the binary tree based on the InOrder and PreOrder Traversal.
+    And then print the postorder traversal recursively.
+
     Algorithm:
         Create a hashmap of nodes and their positions in inOrder Traversal.
         The first node of the PreOrder will be the root node of the tree.
