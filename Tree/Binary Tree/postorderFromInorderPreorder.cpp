@@ -9,6 +9,10 @@
         Check its position in hashmap.
         Traverse recursively the left subtree of the root node.
         Traverse recursively the right subtree of the root node.
+
+    Time Complexity - O(n);
+
+    Space Complexity - O(n);
 */
 
 #include<iostream>
