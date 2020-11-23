@@ -27,10 +27,13 @@ void printPostOrder(int inOrder[], int preOrder[], int inStart, int inEnd, map<i
 
     int inRoot = hash[preOrder[preIndex++]];
 
+    //Traverse Left Subtree.
     printPostOrder(inOrder, preOrder, inStart, inRoot - 1, hash);
 
+    //Traverse Right Subtree.
     printPostOrder(inOrder, preOrder, inRoot + 1, inEnd, hash);
 
+    //Print the root node.
     cout<<inOrder[inRoot]<<" ";
 }
 
