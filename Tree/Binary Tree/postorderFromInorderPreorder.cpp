@@ -9,7 +9,7 @@
     But we can print the postorder without constructing the tree using following algorithm.
 
     Algorithm:
-        Create a hashmap of nodes and their positions in inOrder Traversal.
+        Create a hashmap of nodes and their positions in inOrder Traversal (Perform Hashing).
         The first node of the PreOrder will be the root node of the tree.
         Check its position in hashmap.
         Traverse recursively the left subtree of the root node.
