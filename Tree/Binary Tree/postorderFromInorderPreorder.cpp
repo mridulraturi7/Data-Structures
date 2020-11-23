@@ -12,8 +12,8 @@
         Create a hashmap of nodes and their positions in inOrder Traversal (Perform Hashing).
         The first node of the PreOrder will be the root node of the tree.
         Check its position in hashmap.
-        Traverse recursively the left subtree of the root node.
-        Traverse recursively the right subtree of the root node.
+        The nodes in the left of the root will be left subtree. Traverse recursively the left subtree of the root node.
+        The nodes in the right of the root will be right subtree. Traverse recursively the right subtree of the root node.
 
     Time Complexity - O(n);
 
