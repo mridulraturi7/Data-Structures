@@ -1,7 +1,14 @@
 /*
     Implementation 18.
-    
+
     Find the postorder traversal of a binary tree given its inorder and preorder traversal.
+
+    Algorithm:
+        Create a hashmap of nodes and their positions in inOrder Traversal.
+        The first node of the PreOrder will be the root node of the tree.
+        Check its position in hashmap.
+        Traverse recursively the left subtree of the root node.
+        Traverse recursively the right subtree of the root node.
 */
 
 #include<iostream>
