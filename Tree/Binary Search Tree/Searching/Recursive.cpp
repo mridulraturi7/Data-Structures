@@ -1,5 +1,9 @@
 /*
+    Implementation 3.
+
     Searching in Binary Search Tree : Recursive Approach.
+
+    Time Complexity: O(h), where h is the height of BST.
 */
 
 #include<iostream>
