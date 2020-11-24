@@ -1,5 +1,12 @@
 /*
     Construct the following Binary Search Tree:
+
+                        8
+                       / \
+                     5     10
+                    / \    / \
+                   2   6  9   12
+
 */
 
 #include<iostream>
