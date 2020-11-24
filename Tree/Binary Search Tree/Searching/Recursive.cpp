@@ -29,16 +29,19 @@ Node* createNode(int data)
 
 Node* search(struct Node* root, int key)
 {
+    //If root is NULL or root is the node to be searched, then return root.
     if(root == NULL || root->data == key)
     {
         return root;
     }
 
+    //If key is lesser than current node's data, then search in left subtree.
     if(root->data > key)
     {
         return search(root->left, key);
     }
 
+    //Else search in the right subtree.
     return search(root->right, key);
 }
 
