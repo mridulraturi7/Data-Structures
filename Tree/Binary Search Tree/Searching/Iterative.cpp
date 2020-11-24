@@ -95,12 +95,12 @@ int main()
 
     if(result == NULL)
     {
-        cout<<"Node with "<<key<<" is not present in the BST.";
+        cout<<"Node with key "<<key<<" is not present in the BST.";
     }
 
     else
     {
-        cout<<"Node with "<<key<<" is present in the BST.";
+        cout<<"Node with key "<<key<<" is present in the BST.";
     }
 
     return 0;
