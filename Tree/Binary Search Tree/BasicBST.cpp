@@ -30,15 +30,47 @@ struct Node
 int main()
 {
     struct Node *root = new Node(8);
+    /*
+            Current Status:         8
+                                   / \
+                                NULL  NULL
+    */
 
     root->left = new Node(5);
     root->right = new Node(10);
+    /*
+            Current Status:         8
+                                   / \
+                                 5     10
+                               /  \    /  \ 
+                            NULL NULL NULL NULL
+    */
 
     root->left->left = new Node(2);
     root->left->right = new Node(6);
+    /*
+            Current Status:
+                                    8
+                                   / \
+                                 5     10
+                               /   \   /  \
+                              2     6 NULL NULL
+                             /       \
+                          NULL      NULL 
+    */
 
     root->right->left = new Node(9);
     root->right->right = new Node(12);
+    /*
+            Current Status:
+                                    8
+                                  /   \
+                                5       10
+                              /  \      /  \
+                             2    6     9   12
+                           /       \   /     \
+                          NULL   NULL NULL  NULL 
+    */
 
     return 0;
 }
