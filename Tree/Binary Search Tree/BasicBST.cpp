@@ -27,6 +27,18 @@ struct Node
     }
 };
 
+void inorder(struct Node *root)
+{
+    if(root == NULL)
+    {
+        return;
+    }
+
+    inorder(root->left);
+    cout<<root->data<<" ";
+    inorder(root->left);
+}
+
 int main()
 {
     struct Node *root = new Node(8);
@@ -71,6 +83,9 @@ int main()
                            /       \   /     \
                           NULL   NULL NULL  NULL 
     */
+
+    cout<<"Inorder Traversal of the BST: ";
+    inorder(root);
 
     return 0;
 }
