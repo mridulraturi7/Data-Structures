@@ -1,4 +1,6 @@
 /*
+    Implementation 1.
+
     Construct the following Binary Search Tree:
 
                         8
