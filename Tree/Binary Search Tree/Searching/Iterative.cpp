@@ -43,11 +43,6 @@ Node* search(struct Node *root, int key)
 
     while(current->data != key)
     {
-        if(current == NULL)
-        {
-            return NULL;
-        }
-
         if(current->data == key)
         {
             break;
@@ -61,6 +56,11 @@ Node* search(struct Node *root, int key)
         else
         {
             current = current->right;
+        }
+
+        if(current == NULL)
+        {
+            return NULL;
         }
     }
 
