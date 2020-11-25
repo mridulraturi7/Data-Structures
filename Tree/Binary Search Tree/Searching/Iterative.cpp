@@ -77,21 +77,7 @@ Node* search(struct Node *root, int key)
 
 int main()
 {
-    struct Node *root = createNode(8);
-    root->left = createNode(5);
-    root->right= createNode(10);
-
-    root->left->left = createNode(2);
-    root->left->right = createNode(6);
-
-    root->right->left = createNode(9);
-    root->right->right = createNode(12);
-
-    int key;
-    cout<<"Enter the key of the node to search: ";
-    cin>>key;
-
-    struct Node* result = search(root, key);
+    
 
     if(result == NULL)
     {
