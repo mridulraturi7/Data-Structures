@@ -35,15 +35,7 @@ Node* search(struct Node *root, int key)
 {
     struct Node *current = root;
 
-    if(current == NULL)
-    {
-        return NULL;
-    }
-
-    if(current->data == key)
-    {
-        return current;
-    }
+    
 
     while(current->data != key)
     {
