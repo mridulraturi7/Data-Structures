@@ -87,7 +87,9 @@ int main()
     root->right->left = createNode(9);
     root->right->right = createNode(12);
 
-    
+    int key;
+    cout<<"Enter the key of the node to search: ";
+    cin>>key;
 
     struct Node* result = search(root, key);
 
