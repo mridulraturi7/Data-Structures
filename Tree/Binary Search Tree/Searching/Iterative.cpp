@@ -65,7 +65,11 @@ Node* search(struct Node *root, int key)
             current = current->right;
         }
 
-        
+        //If we have reached end of the tree heightwise(node is not found), we return NULL.
+        if(current == NULL)
+        {
+            return NULL;
+        }
     }
 
     return current;
