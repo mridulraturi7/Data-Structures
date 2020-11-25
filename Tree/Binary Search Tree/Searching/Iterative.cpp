@@ -48,11 +48,7 @@ Node* search(struct Node *root, int key)
     while(current->data != key)
     {
         //If the node is found break the loop.
-        if(current->data == key)
-        {
-            break;
-        }
-
+        
         //If the key is lesser than current node's data then search in the left subtree.
         else if(current->data > key)
         {
