@@ -33,6 +33,7 @@ Node* createNode(int data)
 
 Node* insert(struct Node *root, int key)
 {
+    //If the tree is empty, make the new node as root node.
     if(root == NULL)
     {
         root = createNode(key);
@@ -40,28 +41,33 @@ Node* insert(struct Node *root, int key)
     }
 
     struct Node* current = root;
-    struct Node *prev_node;
+    struct Node *prev_node;     //prev_node will store the parent of the node to be inserted.
 
+    //This loop is used to find the parent of the node to be inserted.
     while(current != NULL)
     {
         prev_node = current;
 
+        //If the key is less than current node's key, then move to the left subtree.
         if(current->data > key)
         {
             current = current->left;
         }
 
+        //If the key is greater than current node's key, then move to the right subtree.
         else if(current->data < key)
         {
             current = current->right;
         }
     }
 
+    //If the key of the node to be inserted is less than its parent key, insert it as left child.
     if(key < prev_node->data)
     {
         prev_node->left = createNode(key);
     }
 
+    //Else if the key of the node to be inserted is greater than its parent key, insert it as right child.
     else if(key > prev_node->data)
     {
         prev_node->right = createNode(key);
