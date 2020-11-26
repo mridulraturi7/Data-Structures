@@ -1,5 +1,9 @@
 /*
+    Implementation 6.
+
     Delete a node from a Binary Search Tree.
+
+    Time Complexity - O(h), where h is the height of the BST.
 */
 
 #include<iostream>
