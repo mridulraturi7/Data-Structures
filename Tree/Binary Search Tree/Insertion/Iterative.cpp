@@ -1,0 +1,3 @@
+/*
+    Insert a node in a Binary Search Tree.
+*/
