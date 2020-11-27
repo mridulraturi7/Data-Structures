@@ -1,5 +1,21 @@
 /*
+    Implementation 1.
+
     Adjacency Matric Representation of a Graph.
+
+    Construct the Adjacency Matrix of following Graph:
+
+                    0---------1
+                    |         |
+                    |         |
+                    |         |
+                    |         |
+                    2---------3
+                     \       /
+                      \     /
+                       \   /
+                        \ /
+                         4
 */
 
 #include<iostream>
