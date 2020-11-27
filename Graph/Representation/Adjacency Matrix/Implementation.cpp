@@ -1,7 +1,7 @@
 /*
     Implementation 1.
 
-    Adjacency Matric Representation of a Graph.
+    Adjacency Matrix Representation of a Graph.
 
     Construct the Adjacency Matrix of the following Graph:
 
