@@ -23,6 +23,7 @@
 
 using namespace std;
 
+//In this program, we are using array of vectors, in the place of array of lists.
 vector<int> array[5];
 
 void addEdge(int u, int v)
