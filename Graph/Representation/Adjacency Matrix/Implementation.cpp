@@ -42,7 +42,7 @@ int main()
     addEdge(4, 2);
     addEdge(4, 3);
 
-    cout<<"The status of Adjacency Matrix: ";
+    cout<<"The status of Adjacency Matrix: "<<endl;
     printGraph();
 
     return 0;
