@@ -1,5 +1,21 @@
 /*
+    Implementation 2.
+
     Adjacency List Representation of a Graph.
+
+    Construct the Adjacency List of the following Graph:
+
+                    0---------1
+                    |         |
+                    |         |
+                    |         |
+                    |         |
+                    2---------3
+                     \       /
+                      \     /
+                       \   /
+                        \ /
+                         4
 */
 
 #include<iostream>
