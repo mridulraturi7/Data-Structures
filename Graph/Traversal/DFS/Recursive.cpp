@@ -125,7 +125,7 @@ int main()
     cout<<"Graph Status (Adjacency Matrix): "<<endl;
     G.printGraph();
 
-    cout<<"BFS Traversal of the Graph (start vertex - 0): ";
+    cout<<"DFS Traversal of the Graph (start vertex - 0): ";
     G.dfs(0);
 
     return 0;
