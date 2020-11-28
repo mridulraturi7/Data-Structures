@@ -32,6 +32,11 @@ class Graph
 
     public:
 
+        Graph()
+        {
+            
+        }
+
         Graph(int n);
 
         void addEdge(int u, int v);
