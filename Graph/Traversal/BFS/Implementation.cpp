@@ -3,7 +3,7 @@
 
     BFS Traversal of a Graph.
 
-    Perfrom the BFS traversal of the following Graph:
+    Perform the BFS traversal of the following Graph:
 
                     0---------1
                     |         |
@@ -34,7 +34,7 @@ class Graph
 
         Graph()
         {
-            
+
         }
 
         Graph(int n);
