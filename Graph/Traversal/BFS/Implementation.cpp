@@ -88,7 +88,7 @@ void Graph::printGraph()
     list<int>::iterator it;
     for(int i = 0; i < V; i++)
     {
-        cout<<"Adjacency Vertices of "<<i<<" vertex: ";
+        cout<<"Adjacenct Vertices of "<<i<<" vertex: ";
         for(it = adj[i].begin(); it != adj[i].end(); it++)
         {
             cout<<*it<<" ";
