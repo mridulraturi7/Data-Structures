@@ -1,5 +1,21 @@
 /*
+    Implementation 3.
+
     BFS Traversal of a Graph.
+
+    Perfrom the BFS traversal of the following Graph:
+
+                    0---------1
+                    |         |
+                    |         |
+                    |         |
+                    |         |
+                    2---------3
+                     \       /
+                      \     /
+                       \   /
+                        \ /
+                         4
 */
 
 #include<iostream>
