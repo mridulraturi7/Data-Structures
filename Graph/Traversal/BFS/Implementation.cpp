@@ -73,7 +73,7 @@ void Graph::printGraph()
     for(int i = 0; i < V; i++)
     {
         cout<<"Adjacency Vertices of "<<i<<" vertex: ";
-        for(it = adj[i].begin(); it != adj[i].end(); i++)
+        for(it = adj[i].begin(); it != adj[i].end(); it++)
         {
             cout<<*it<<" ";
         }
@@ -104,10 +104,10 @@ int main()
     G.addEdge(4, 2);
     G.addEdge(4, 3);
 
-    cout<<"Graph Status (Adjacency Matrix): ";
+    cout<<"Graph Status (Adjacency Matrix): "<<endl;
     G.printGraph();
 
-    cout<<"BFS Traversal of the Graph: (start vertex : 0)";
+    cout<<"BFS Traversal of the Graph (start vertex - 0): ";
     G.bfs(0);
 
     return 0;
