@@ -42,7 +42,7 @@ class Graph
 
         void dfs(int s);
 
-        void dfsUtil(int v, int visited[]);
+        void dfsUtil(int v, bool visited[]);
 
         void printGraph();
 };
@@ -60,7 +60,7 @@ void Graph::addEdge(int u, int v)
 
 void Graph::dfs(int s)
 {
-    int *visited = new int[V];
+    bool *visited = new bool[V];
     for(int i = 0; i < V; i++)
     {
         visited[i] = false;
@@ -69,7 +69,7 @@ void Graph::dfs(int s)
     dfsUtil(s, visited);
 }
 
-void Graph::dfsUtil(int v, int visited[])
+void Graph::dfsUtil(int v, bool visited[])
 {
     visited[v] = true;
     cout<<v<<" ";
