@@ -6,11 +6,11 @@
     Perform the BFS traversal of the following Graph:
 
                     0---------1
-                    |         |
-                    |         |
-                    |         |
-                    |         |
-                    2---------3
+                    | \       |
+                    |   \     |
+                    |     \   |
+                    |       \ |
+                    3---------2
                      \       /
                       \     /
                        \   /
