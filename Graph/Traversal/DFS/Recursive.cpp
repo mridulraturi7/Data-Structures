@@ -3,7 +3,7 @@
 
     DFS Traversal of a Graph.
 
-    Perform the BFS traversal of the following Graph:
+    Perform the DFS traversal of the following Graph:
 
                     0---------1
                     |         |
