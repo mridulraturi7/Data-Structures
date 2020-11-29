@@ -71,6 +71,20 @@ void Graph::dfs(int s)
     }
 }
 
+void Graph::printGraph()
+{
+    for(int i = 0; i < V; i++)
+    {
+        list<int>::iterator it;
+        cout<<"Adjacent Vertices of "<<i<<" vertex";
+        for(it = adj[i].begin(); it != adj[i].end(); it++)
+        {
+            cout<<*it<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 int main()
 {
 
