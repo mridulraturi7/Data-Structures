@@ -1,5 +1,21 @@
 /*
+    Implementation 5.
+
     DFS Traversal of a Graph.
+
+    Perform the DFS traversal of the following Graph:
+
+                    0---------1
+                    |         |
+                    |         |
+                    |         |
+                    |         |
+                    2---------3
+                     \       /
+                      \     /
+                       \   /
+                        \ /
+                         4
 */
 
 #include<iostream>
