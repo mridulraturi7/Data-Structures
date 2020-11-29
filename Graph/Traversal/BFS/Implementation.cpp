@@ -59,7 +59,7 @@ void Graph::addEdge(int u, int v)
 
 void Graph::bfs(int s)
 {
-    int *visited = new int[V];
+    bool *visited = new bool[V];
     for(int i = 0; i < V; i++)
     {
         visited[i] = false;
@@ -111,14 +111,14 @@ int main()
     G.addEdge(0, 3);
 
     G.addEdge(1, 0);
-    G.addEdge(1, 3);
+    G.addEdge(1, 2);
 
     G.addEdge(2, 0);
+    G.addEdge(2, 1);
     G.addEdge(2, 3);
     G.addEdge(2, 4);
 
     G.addEdge(3, 0);
-    G.addEdge(3, 1);
     G.addEdge(3, 2);
     G.addEdge(3, 4);
 
