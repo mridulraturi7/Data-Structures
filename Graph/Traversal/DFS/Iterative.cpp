@@ -57,35 +57,7 @@ void Graph::addEdge(int u, int v)
     adj[u].push_back(v);
 }
 
-void Graph::dfs(int s)
-{
-    bool *visited = new bool[V];
-    for(int i = 0; i < V; i++)
-    {
-        visited[i] = false;
-    }
 
-    stack<int> st;
-    st.push(s);
-    visited[s] = true;
-
-    list<int>::iterator it;
-    while(st.empty() == false)
-    {
-        int temp = st.top();
-        cout<<temp<<" ";
-        st.pop();
-
-        for(it = adj[temp].begin(); it != adj[temp].end(); it++)
-        {
-            if(!visited[*it])
-            {
-                visited[*it] = true;
-                st.push(*it);
-            }
-        }
-    }
-}
 
 void Graph::printGraph()
 {
