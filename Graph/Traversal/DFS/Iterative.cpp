@@ -45,12 +45,7 @@ class Graph
         void printGraph();
 };
 
-Graph::Graph(int n)
-{
-    this->V = n;
 
-    adj = new list<int>[V];
-}
 
 void Graph::addEdge(int u, int v)
 {
