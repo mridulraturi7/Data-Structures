@@ -52,6 +52,10 @@ Graph::Graph(int n)
     adj = new list<int>[V];
 }
 
+void Graph::addEdge(int u, int v)
+{
+    adj[u].push_back(v);
+}
 
 void Graph::dfs(int s)
 {
