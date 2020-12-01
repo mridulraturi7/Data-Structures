@@ -32,10 +32,7 @@ class Graph
 
     public:
 
-        Graph()
-        {
-
-        }
+        
 
         Graph(int n);
 
