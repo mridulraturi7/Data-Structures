@@ -1,5 +1,7 @@
 /*
-    
+    Implementation 3.
+
+    BFS Traversal of a Graph.
 
     Perform the BFS traversal of the following Graph:
 
