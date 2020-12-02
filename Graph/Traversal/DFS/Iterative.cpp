@@ -5,17 +5,7 @@
 
     Perform the DFS traversal of the following Graph:
 
-                    0---------1
-                    | \       |
-                    |   \     |
-                    |     \   |
-                    |       \ |
-                    3---------2
-                     \       /
-                      \     /
-                       \   /
-                        \ /
-                         4
+                    
 */
 
 #include<iostream>
