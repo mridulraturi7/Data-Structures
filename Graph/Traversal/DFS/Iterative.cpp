@@ -31,7 +31,10 @@ class Graph
     list<int> *adj;
 
     public:
-        
+        Graph()
+        {
+
+        }
 
         Graph(int n);
 
