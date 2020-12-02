@@ -40,9 +40,7 @@ class Graph
 
         void addEdge(int u, int v);
 
-        void dfs(int s);
-
-        void printGraph();
+        
 };
 
 Graph::Graph(int n)
