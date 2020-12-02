@@ -26,9 +26,7 @@ using namespace std;
 
 class Graph
 {
-    int V;
-
-    list<int> *adj;
+    
 
     public:
         Graph()
