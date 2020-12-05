@@ -1,5 +1,8 @@
 /*
     Convert string to lower case.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/java-convert-string-to-lowercase2313/0/?category[]=Strings&difficulty[]=-2&page=1&query=category[]Stringsdifficulty[]-2page1
+    Difficulty - School
 */
 
 #include<iostream>
