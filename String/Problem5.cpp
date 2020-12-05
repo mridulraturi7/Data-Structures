@@ -1,5 +1,8 @@
 /*
     Convert a list of characters into a string.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/convert-a-list-of-characters-into-a-string5142/0/?category[]=Strings&difficulty[]=-2&page=1&query=category[]Stringsdifficulty[]-2page1
+    Difficulty - School
 */
 
 #include<iostream>
