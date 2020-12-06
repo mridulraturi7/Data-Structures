@@ -10,14 +10,15 @@
 
 using namespace std;
 
-string toLowerCase(string str)
+string toUpperCase(string str)
 {
+    string res;
     for(int i = 0; i < str.length(); i++)
     {
-        str[i] -= 32;
+        res.push_back(toupper(str[i]));
     }
 
-    return str;
+    return res;
 }
 
 int main()
@@ -30,7 +31,7 @@ int main()
         string str;
         cin>>str;
 
-        cout<<toLowerCase(str)<<endl;
+        cout<<toUpperCase(str)<<endl;
     }
 
     return 0;
