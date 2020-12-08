@@ -20,7 +20,7 @@ int main()
         str1.length() >= str2.length() ? cout<<str1.length() : cout<<str2.length();
         cout<<endl;
 
-        str1.append(str2);
+        str1 += str2;
         cout<<str1<<endl;
     }
 
