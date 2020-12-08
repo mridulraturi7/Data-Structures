@@ -1,5 +1,8 @@
 /*
     Count type of Characters.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/count-type-of-characters3635/0/?category[]=Strings&difficulty[]=-2&page=1&query=category[]Stringsdifficulty[]-2page1
+    Difficulty - School
 */
 
 #include<iostream>
