@@ -4,8 +4,48 @@
 
 #include<iostream>
 #include<string>
+#include<vector>
 
 using namespace std;
+
+class Solution
+{
+    public:
+        vector<int> count(string str)
+        {
+            vector<int> result;
+            int count_upper = 0, count_lower = 0, count_numeric = 0, count_special = 0;
+            for(int i = 0; i < str.length(); i++)
+            {
+                if(isupper(str[i]))
+                {
+                    count_upper++;
+                }
+
+                else if(islower(str[i]))
+                {
+                    count_lower++;
+                }
+
+                else if(isdigit(str[i]))
+                {
+                    count_numeric++;
+                }
+
+                else
+                {
+                    count_special++;
+                }
+            }
+
+            result.push_back(count_upper);
+            result.push_back(count_lower);
+            result.push_back(count_numeric);
+            result.push_back(count_special);
+
+            return result;
+        }
+};
 
 int main()
 {
@@ -17,34 +57,12 @@ int main()
         string str;
         cin>>str;
 
-        int count_upper = 0, count_lower = 0, count_numeric = 0, count_special = 0;
-        for(int i = 0; i < str.length(); i++)
+        Solution ob;
+        vector<int> res = ob.count(str);
+        for(int i : res)
         {
-            if(isupper(str[i]))
-            {
-                count_upper++;
-            }
-
-            else if(islower(str[i]))
-            {
-                count_lower++;
-            }
-
-            else if(isdigit(str[i]))
-            {
-                count_numeric++;
-            }
-
-            else
-            {
-                count_special++;
-            }
+            cout<<i<<endl;
         }
-
-        cout<<count_upper<<endl;
-        cout<<count_lower<<endl;
-        cout<<count_numeric<<endl;
-        cout<<count_special<<endl;
     }
 
     return 0;
