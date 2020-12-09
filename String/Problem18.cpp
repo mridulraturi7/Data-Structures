@@ -7,6 +7,23 @@
 
 using namespace std;
 
+class Solution
+{
+    public:
+        bool check(string str)
+        {
+            for(int i = 0; i < str.length() - 1; i++)
+            {
+                if(str[i] != str[i + 1])
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+};
+
 int main()
 {
     int testCase;
@@ -17,7 +34,21 @@ int main()
         string str;
         cin>>str;
 
+        Solution ob;
 
+        bool res = ob.check(str);
+
+        if(res)
+        {
+            cout<<"Yes";
+        }
+
+        else
+        {
+            cout<<"No";
+        }
+
+        cout<<endl;
     }
 
     return 0;
