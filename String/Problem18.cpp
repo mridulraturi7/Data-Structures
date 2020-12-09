@@ -12,7 +12,7 @@ class Solution
     public:
         bool check(string str)
         {
-            for(int i = 0; i < str.length() - 1; i++)
+            for(long i = 0; i < str.length() - 1; i++)
             {
                 if(str[i] != str[i + 1])
                 {
