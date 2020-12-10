@@ -7,17 +7,17 @@
 
 using namespace std;
 
-int checkBinary(string str)
+bool checkBinary(string str)
 {
-    for(int i = 0; i < str.length() - 1; i++)
+    for(int i = 0; i < str.length(); i++)
     {
         if(str[i] != '0' && str[i] != '1')
         {
-            return 0;
+            return false;
         }
     }
 
-    return 1;
+    return true;
 }
 
 int main()
