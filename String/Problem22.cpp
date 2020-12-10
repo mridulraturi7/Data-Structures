@@ -21,14 +21,22 @@ int main()
 
         for(int i = 0; i < str.length(); i++)
         {
-            if(i == 0)
+            if(i == 0 && str[i] != ' ')
             {
                 str[i] = str[i] - 32;
             }
 
-            else if(str[i] == ' ')
+            if(str[i] == ' ')
             {
-                str[i + 1] = str[i + 1] - 32;
+                while(str[i] == ' ')
+                {
+                    i++;
+                }
+                
+                if(i < str.length())
+                {
+                    str[i] = str[i] - 32;
+                }
             }
         }
 
