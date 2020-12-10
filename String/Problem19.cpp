@@ -10,7 +10,19 @@ using namespace std;
 class Solution
 {
     public:
-        
+        string removeCharacters(string str)
+        {
+            string res;
+            for(int i = 0; i < str.length(); i++)
+            {
+                if(isdigit(str[i]))
+                {
+                    res.push_back(str[i]);
+                }
+            }
+
+            return res;
+        }
 };
 
 int main()
