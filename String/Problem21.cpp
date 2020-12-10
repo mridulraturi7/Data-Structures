@@ -36,7 +36,6 @@ int main()
         cin>>str;
 
         printPattern(str);
-        cout<<endl;
     }
 
     return 0;
