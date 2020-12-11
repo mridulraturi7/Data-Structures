@@ -4,7 +4,6 @@
 
 #include<iostream>
 #include<string>
-#include<sstream>
 
 using namespace std;
 
@@ -31,12 +30,12 @@ class Solution
 
             if(count > 0)
             {
-                cout<<digit<<endl;
+                cout<<digit;
             }
 
             else
             {
-                cout<<"No Integers"<<endl;
+                cout<<"No Integers";
             }  
         }
 };
