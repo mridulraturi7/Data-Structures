@@ -4,8 +4,18 @@
 
 
 #include<iostream>
+#include<string>
 
 using namespace std;
+
+class Solution
+{
+    public:
+        string removeVowels(string str)
+        {
+
+        }
+};
 
 int main()
 {
@@ -14,7 +24,11 @@ int main()
 
     while(testCase-- != 0)
     {
-        
+        string str;
+        cin>>str;
+
+        Solution ob;
+        cout<<ob.removeVowels(str)<<endl;
     }
 
     return 0;
