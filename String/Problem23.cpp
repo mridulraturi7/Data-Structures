@@ -34,10 +34,12 @@ int main()
     int testCase;
     cin>>testCase;
 
+    cin.ignore();
+
     while(testCase-- != 0)
     {
         string str;
-        cin>>str;
+        getline(cin, str);
 
         Solution ob;
         cout<<ob.removeVowels(str)<<endl;
