@@ -7,6 +7,15 @@
 
 using namespace std;
 
+class Solution
+{
+    public:
+        string removeSpaces(string str)
+        {
+            
+        }
+};
+
 int main()
 {
     int testCase;
@@ -14,7 +23,7 @@ int main()
 
     while(testCase-- != 0)
     {
-        
+
     }
 
     return 0;
