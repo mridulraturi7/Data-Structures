@@ -13,7 +13,16 @@ class Solution
     public:
         string removeVowels(string str)
         {
+            string res;
+            for(int i = 0; i < str.length(); i++)
+            {
+                if(str[i] != 'a' && str[i] != 'e' && str[i] != 'i' && str[i] != 'o' && str[i] != 'u')
+                {
+                    res.push_back(str[i]);
+                }
+            }
 
+            return res;
         }
 };
 
