@@ -1,5 +1,8 @@
 /*
     Reverse a string.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/reverse-a-string/1/?category[]=Strings&difficulty[]=-1&page=1&query=category[]Stringsdifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
