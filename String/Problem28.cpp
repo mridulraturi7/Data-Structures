@@ -12,7 +12,21 @@ class Solution
     public:
         int RedOrGreen(string str)
         {
-            
+            int red = 0, green = 0;
+            for(int i = 0; i < str.length(); i++)
+            {
+                if(str[i] == 'R')
+                {
+                    red++;
+                }
+
+                else
+                {
+                    green++;
+                }
+            }
+
+            return (red < green) ? red : green;
         }
 };
 
@@ -25,6 +39,9 @@ int main()
     {
         string str;
         cin>>str;
+
+        Solution ob;
+        cout<<ob.RedOrGreen(str)<<endl;
     }
 
     return 0;
