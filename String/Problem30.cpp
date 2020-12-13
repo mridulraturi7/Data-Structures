@@ -11,23 +11,7 @@
 
 using namespace std;
 
-class Solution
-{
-    public:
-        string firstAlphabet(string str)
-        {
-            string res, temp;
 
-            stringstream stream(str);
-
-            while(stream >> temp)
-            {
-                res.push_back(temp[0]);
-            }
-
-            return res;
-        }
-};
 
 int main()
 {
