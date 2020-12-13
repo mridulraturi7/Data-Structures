@@ -36,7 +36,14 @@ int main()
 
     cin.ignore();
 
-    
+    while(testCase-- != 0)
+    {
+        string str;
+        getline(cin, str);
+
+        Solution ob;
+        cout<<ob.firstAlphabet(str)<<endl;
+    }
 
     return 0;
 }
