@@ -7,6 +7,21 @@
 
 using namespace std;
 
+int countWords(string str)
+{
+    int count = 1;
+
+    for(int i = 0; i < str.length(); i++)
+    {
+        if(isupper(str[i]))
+        {
+            count++;
+        }
+    }
+
+    return count;
+}
+
 int main()
 {
     int testCase;
@@ -17,17 +32,7 @@ int main()
         string str;
         cin>>str;
 
-        int count = 1;
-
-        for(int i = 0; i < str.length(); i++)
-        {
-            if(isupper(str[i]))
-            {
-                count++;
-            }
-        }
-
-        cout<<count<<endl;
+        cout<<countWords(str)<<endl;
     }
 
     return 0;
