@@ -7,6 +7,22 @@
 
 using namespace std;
 
+int calculateDifference(string str)
+{
+    int actual_amount = stoi(str);
+    for(int i = 0; i < str.length(); i++)
+    {
+        if(str[i] == '6')
+        {
+            str[i] = '9';
+        }
+    }
+
+    int max_amount = stoi(str);
+
+    return (max_amount - actual_amount);
+}
+
 int main()
 {
     int testCase;
@@ -17,18 +33,7 @@ int main()
         string str;
         cin>>str;
 
-        int actual_amount = stoi(str);
-        for(int i = 0; i < str.length(); i++)
-        {
-            if(str[i] == '6')
-            {
-                str[i] = '9';
-            }
-        }
-
-        int max_amount = stoi(str);
-
-        cout<<(max_amount - actual_amount)<<endl;
+        cout<<calculateDifference(str)<<endl;
     }
 
     return 0;
