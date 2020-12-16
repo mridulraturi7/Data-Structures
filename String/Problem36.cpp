@@ -7,6 +7,11 @@
 
 using namespace std;
 
+bool isIsogram(string str)
+{
+    
+}
+
 int main()
 {
     int testCase;
@@ -15,6 +20,9 @@ int main()
     while(testCase-- != 0)
     {
         string str;
+        cin>>str;
+
+        cout<<isIsogram(str)<<endl;
     }
 
     return 0;
