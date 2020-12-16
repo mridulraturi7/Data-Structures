@@ -1,5 +1,8 @@
 /*
-    
+    Check if a string is Isogram or not.
+    Problem is taken from GFG.
+    Problem Statement - https://practice.geeksforgeeks.org/problems/check-if-a-string-is-isogram-or-not-1587115620/0/?category[]=Strings&difficulty[]=-1&page=1&query=category[]Stringsdifficulty[]-1page1
+    Difficulty - Basic
 */
 
 #include<iostream>
