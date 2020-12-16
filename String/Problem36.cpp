@@ -13,6 +13,7 @@ using namespace std;
 bool isIsogram(string str)
 {
     int array[26] = {0};
+    
     for(int i = 0; i < str.length(); i++)
     {
         array[str[i] - 'a']++;
