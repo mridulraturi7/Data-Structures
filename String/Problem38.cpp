@@ -4,6 +4,7 @@
 
 #include<iostream>
 #include<string>
+#include<sstream>
 
 using namespace std;
 
@@ -14,8 +15,8 @@ int countEvenSubstrings(string str)
     {
         for(int len = 1; len <= str.length() - i; len++)
         {
-            int num = stoi(str.substr(i, len));
-            if((num % 2) == 0)
+            string temp = str.substr(i, len);
+            if((int(temp[len - 1]) % 2) == 0)
             {
                 count++;
             }
