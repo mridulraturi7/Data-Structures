@@ -19,7 +19,9 @@ long binarySubstring(int n, string a)
         }
     }
 
-    return (count * (count - 1)) / 2;
+    long int res = (count * (count - 1)) / 2;
+
+    return res;
 }
 
 int main()
