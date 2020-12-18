@@ -19,7 +19,11 @@ string sortString(string str)
     string res;
     for(auto i : hash)
     {
-        res.push_back(i.first);
+        while(i.second > 0)
+        {
+            res.push_back(i.first);
+            i.second--;
+        }
     }
 
     return res;
