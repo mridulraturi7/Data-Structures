@@ -19,7 +19,15 @@ string sortString(string str)
         hash[str[i]]++;
     }
 
-    
+    string res;
+    for(auto i : hash)
+    {
+        while(i.second > 0)
+        {
+            res.push_back(i.first);
+            i.second--;
+        }
+    }
 
     return res;
 }
