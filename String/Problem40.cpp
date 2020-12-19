@@ -32,16 +32,7 @@ int main()
     int testCase;
     cin>>testCase;
 
-    while(testCase-- != 0)
-    {
-        int n;
-        cin>>n;
-
-        string str;
-        cin>>str;
-
-        cout<<binarySubstring(n, str)<<endl;   
-    }
+    
 
     return 0;
 }
