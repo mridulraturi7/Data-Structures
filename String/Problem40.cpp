@@ -14,13 +14,7 @@ long binarySubstring(int n, string a)
 {
     int count = 0;
 
-    for(int i = 0; i < n; i++)
-    {
-        if(a[i] == '1')
-        {
-            count++;
-        }
-    }
+    
 
     long int res = (count * (count - 1)) / 2;
 
