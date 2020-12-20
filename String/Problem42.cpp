@@ -8,10 +8,10 @@
 
 using namespace std;
 
-string sortString(string str)
+string sortString(string str, int n)
 {
     map<char, int> hash;
-    for(int i = 0; i < str.length(); i++)
+    for(int i = 0; i < n; i++)
     {
         hash[str[i]]++;
     }
@@ -37,10 +37,13 @@ int main()
 
     while(testCase-- != 0)
     {
+        int n;
+        cin>>n;
+        
         string str;
         cin>>str;
 
-        cout<<sortString(str)<<endl;
+        cout<<sortString(str, n)<<endl;
     }
 
     return 0;
