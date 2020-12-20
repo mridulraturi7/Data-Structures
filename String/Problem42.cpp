@@ -7,6 +7,11 @@
 
 using namespace std;
 
+string sortString(string str)
+{
+    
+}
+
 int main()
 {
     int testCase;
@@ -14,7 +19,10 @@ int main()
 
     while(testCase-- != 0)
     {
+        string str;
+        cin>>str;
 
+        cout<<sortString(str)<<endl;
     }
 
     return 0;
