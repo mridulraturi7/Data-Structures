@@ -5,11 +5,7 @@
     Difficulty - Basic
 */
 
-#include<iostream>
-#include<string>
-#include<map>
 
-using namespace std;
 
 string removeCharacters(string s1, string s2)
 {
